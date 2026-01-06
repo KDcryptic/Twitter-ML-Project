@@ -1,0 +1,5 @@
+[2026-01-06 19:32:58,629] 1392 botocore.credentials - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2026-01-06 19:33:01,431] 47 root - WARNING - Settlement 'Dordabis' not found. Error: city not found
+[2026-01-06 19:33:01,431] 118 root - INFO -  Skipped Dordabis
+[2026-01-06 19:33:20,623] 81 root - INFO -  Weather data saved to notebooks\data\raw\weatherData_06_01_2026_19_33_20.csv
+[2026-01-06 19:33:20,623] 123 root - INFO - hourly dataset compiled

@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import requests
 import os
+import json
 import sys
 import boto3
 
@@ -11,24 +12,25 @@ from src.exception import CustomException
 from src.logger import logging
 
 
-openWeatherKey = "57776e2832b23eae44d3ec3bcb0c3093"
+openWeatherKey = os.getenv('openWeatherKey')
+bucketName = 'open-weather-data-storage'
+s3 = boto3.client('s3')
 base_url = "http://api.openweathermap.org/data/2.5/weather?"
 
 
 
 namibia_settlements = [
     
-    "Windhoek", "Dordabis", "Seeis",
+    "Windhoek",
     "Swakopmund", "Walvis Bay", "Arandis", "Usakos", "Omaruru", "Henties Bay",
     "Oshakati", "Ongwediva", "Ompundja",
-    "Eenhana", "Helao Nafidi", "Okongo",
-    "Outapi", "Tsandi", "Okahao", "Ruacana",
-    "Tsumeb", "Omuthiya", "Oniipa",
+    "Eenhana", "Helao Nafidi",
+    "Tsandi", "Okahao",
+    "Tsumeb", "Oniipa",
     "Otjiwarongo", "Grootfontein", "Okakarara",
-    "Opuwo", "Khorixas", "Sesfontein",
+    "Opuwo", "Khorixas",
     "Katima Mulilo", "Kongola",
-    "Rundu", "Divundu",
-    "Nkurenkuru", "Mpungu",
+    "Rundu", 'Otjiwarongo',
     "Mariental", "Rehoboth", "Gibeon",
     "Keetmanshoop", "Lüderitz", "Oranjemund", "Karasburg",
     "Gobabis", "Leonardville", "Witvlei"
@@ -73,7 +75,7 @@ def compileData(dataframes):
     try:
         df = pd.concat(dataframes, ignore_index=True)
         filename = datetime.now().strftime("%d_%m_%Y_%H_%M_%S")
-        output_path = os.path.join("notebooks","data", f"weatherData_{filename}.csv")
+        output_path = os.path.join("notebooks","data","raw", f"weatherData_{filename}.csv")
         os.makedirs(os.path.dirname(output_path), exist_ok=True)
         df.to_csv(output_path, index=False)
         logging.info(f" Weather data saved to {output_path}")
@@ -83,7 +85,30 @@ def compileData(dataframes):
 
 
 
+
+
+
+
+def upload_to_s3(dataPath,folder,fileName):
+
+    try:
+        key=f'{folder}/{fileName}'
+        with open(dataPath,'rb') as f:
+            s3.put_object(
+            Bucket=bucketName,
+            Key=key,
+            Body=f,
+            ContentType="text/csv"
+    )
+        logging.info(f"Uploaded {key} to {bucketName}")
+
+    except Exception as e:
+        raise CustomException(e,sys)
+
+
+
 dataframes = []
+
 
 try:
     for settlement in namibia_settlements:
@@ -92,12 +117,17 @@ try:
             dataframes.append(settlementDf)
         else:
             logging.info(f" Skipped {settlement}")
+    
+    compileData(dataframes)
+    dataPath= os.path.join(os.getcwd(),'notebooks','data','raw',f'weatherData_{datetime.now().strftime("%d_%m_%Y_%H_%M_%S")}.csv')
+    fileName= f'weatherData_{datetime.now().strftime("%d_%m_%Y_%H_%M_%S")}.csv'
+    logging.info('hourly dataset compiled')
+
+    upload_to_s3(dataPath,'raw/hourlyDatasets',fileName)
+    logging.info('File uploaded to datalake')
 
 except Exception as e:
     raise CustomException(e,sys)
-
-
-compileData(dataframes)
 
 
 

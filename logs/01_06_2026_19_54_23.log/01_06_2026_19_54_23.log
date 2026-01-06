@@ -1,0 +1,3 @@
+[2026-01-06 19:54:23,957] 1392 botocore.credentials - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2026-01-06 19:55:15,823] 81 root - INFO -  Weather data saved to notebooks\data\raw\weatherData_06_01_2026_19_55_15.csv
+[2026-01-06 19:55:15,823] 124 root - INFO - hourly dataset compiled
