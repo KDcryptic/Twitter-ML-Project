@@ -1,0 +1,21 @@
+[2026-01-06 02:08:43,962] 43 root - WARNING - Settlement 'Dordabis' not found. Error: city not found
+[2026-01-06 02:08:43,963] 84 root - INFO -  Skipped Dordabis
+[2026-01-06 02:08:44,300] 43 root - WARNING - Settlement 'Seeis' not found. Error: city not found
+[2026-01-06 02:08:44,301] 84 root - INFO -  Skipped Seeis
+[2026-01-06 02:08:48,428] 43 root - WARNING - Settlement 'Okongo' not found. Error: city not found
+[2026-01-06 02:08:48,429] 84 root - INFO -  Skipped Okongo
+[2026-01-06 02:08:48,807] 43 root - WARNING - Settlement 'Outapi' not found. Error: city not found
+[2026-01-06 02:08:48,808] 84 root - INFO -  Skipped Outapi
+[2026-01-06 02:08:49,831] 43 root - WARNING - Settlement 'Ruacana' not found. Error: city not found
+[2026-01-06 02:08:49,832] 84 root - INFO -  Skipped Ruacana
+[2026-01-06 02:08:50,516] 43 root - WARNING - Settlement 'Omuthiya' not found. Error: city not found
+[2026-01-06 02:08:50,517] 84 root - INFO -  Skipped Omuthiya
+[2026-01-06 02:08:52,949] 43 root - WARNING - Settlement 'Sesfontein' not found. Error: city not found
+[2026-01-06 02:08:52,949] 84 root - INFO -  Skipped Sesfontein
+[2026-01-06 02:08:54,313] 43 root - WARNING - Settlement 'Divundu' not found. Error: city not found
+[2026-01-06 02:08:54,313] 84 root - INFO -  Skipped Divundu
+[2026-01-06 02:08:54,659] 43 root - WARNING - Settlement 'Nkurenkuru' not found. Error: city not found
+[2026-01-06 02:08:54,660] 84 root - INFO -  Skipped Nkurenkuru
+[2026-01-06 02:08:54,993] 43 root - WARNING - Settlement 'Mpungu' not found. Error: city not found
+[2026-01-06 02:08:54,993] 84 root - INFO -  Skipped Mpungu
+[2026-01-06 02:08:58,437] 73 root - INFO -  Weather data saved to notebooks\data\weatherData_06_01_2026'.csv

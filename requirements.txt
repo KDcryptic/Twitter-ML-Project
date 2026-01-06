@@ -4,5 +4,4 @@ scikit-learn
 matplotlib
 seaborn
 requests
-tweepy
 fastapi
