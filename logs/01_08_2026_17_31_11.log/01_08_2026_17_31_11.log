@@ -1,0 +1,763 @@
+[2026-01-08 17:31:12,069] 1392 botocore.credentials - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2026-01-08 17:31:17,373] 52 root - INFO - ['raw/hourlyDatasets/weatherData_08_01_2026_01_02_19.csv']
+[2026-01-08 17:31:17,373] 52 root - INFO - ['raw/hourlyDatasets/weatherData_08_01_2026_01_02_19.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_02_02_17.csv']
+[2026-01-08 17:31:17,373] 52 root - INFO - ['raw/hourlyDatasets/weatherData_08_01_2026_01_02_19.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_02_02_17.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_03_02_25.csv']
+[2026-01-08 17:31:17,373] 52 root - INFO - ['raw/hourlyDatasets/weatherData_08_01_2026_01_02_19.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_02_02_17.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_03_02_25.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_04_02_15.csv']
+[2026-01-08 17:31:17,373] 52 root - INFO - ['raw/hourlyDatasets/weatherData_08_01_2026_01_02_19.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_02_02_17.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_03_02_25.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_04_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_05_02_16.csv']
+[2026-01-08 17:31:17,373] 52 root - INFO - ['raw/hourlyDatasets/weatherData_08_01_2026_01_02_19.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_02_02_17.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_03_02_25.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_04_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_05_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_06_02_15.csv']
+[2026-01-08 17:31:17,373] 52 root - INFO - ['raw/hourlyDatasets/weatherData_08_01_2026_01_02_19.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_02_02_17.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_03_02_25.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_04_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_05_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_06_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_07_02_16.csv']
+[2026-01-08 17:31:17,373] 52 root - INFO - ['raw/hourlyDatasets/weatherData_08_01_2026_01_02_19.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_02_02_17.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_03_02_25.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_04_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_05_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_06_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_07_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_08_02_17.csv']
+[2026-01-08 17:31:17,373] 52 root - INFO - ['raw/hourlyDatasets/weatherData_08_01_2026_01_02_19.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_02_02_17.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_03_02_25.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_04_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_05_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_06_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_07_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_08_02_17.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_09_02_16.csv']
+[2026-01-08 17:31:17,373] 52 root - INFO - ['raw/hourlyDatasets/weatherData_08_01_2026_01_02_19.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_02_02_17.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_03_02_25.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_04_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_05_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_06_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_07_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_08_02_17.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_09_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_10_02_15.csv']
+[2026-01-08 17:31:17,373] 52 root - INFO - ['raw/hourlyDatasets/weatherData_08_01_2026_01_02_19.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_02_02_17.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_03_02_25.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_04_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_05_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_06_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_07_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_08_02_17.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_09_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_10_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_11_02_15.csv']
+[2026-01-08 17:31:17,373] 52 root - INFO - ['raw/hourlyDatasets/weatherData_08_01_2026_01_02_19.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_02_02_17.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_03_02_25.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_04_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_05_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_06_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_07_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_08_02_17.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_09_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_10_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_11_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_12_02_18.csv']
+[2026-01-08 17:31:17,374] 52 root - INFO - ['raw/hourlyDatasets/weatherData_08_01_2026_01_02_19.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_02_02_17.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_03_02_25.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_04_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_05_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_06_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_07_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_08_02_17.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_09_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_10_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_11_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_12_02_18.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_13_02_31.csv']
+[2026-01-08 17:31:17,374] 52 root - INFO - ['raw/hourlyDatasets/weatherData_08_01_2026_01_02_19.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_02_02_17.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_03_02_25.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_04_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_05_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_06_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_07_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_08_02_17.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_09_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_10_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_11_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_12_02_18.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_13_02_31.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_14_02_19.csv']
+[2026-01-08 17:31:17,374] 52 root - INFO - ['raw/hourlyDatasets/weatherData_08_01_2026_01_02_19.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_02_02_17.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_03_02_25.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_04_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_05_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_06_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_07_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_08_02_17.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_09_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_10_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_11_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_12_02_18.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_13_02_31.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_14_02_19.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_15_02_15.csv']
+[2026-01-08 17:31:17,374] 52 root - INFO - ['raw/hourlyDatasets/weatherData_08_01_2026_01_02_19.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_02_02_17.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_03_02_25.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_04_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_05_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_06_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_07_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_08_02_17.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_09_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_10_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_11_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_12_02_18.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_13_02_31.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_14_02_19.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_15_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_16_02_14.csv']
+[2026-01-08 17:31:17,374] 52 root - INFO - ['raw/hourlyDatasets/weatherData_08_01_2026_01_02_19.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_02_02_17.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_03_02_25.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_04_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_05_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_06_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_07_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_08_02_17.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_09_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_10_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_11_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_12_02_18.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_13_02_31.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_14_02_19.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_15_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_16_02_14.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_17_02_16.csv']
+[2026-01-08 17:31:17,374] 95 root - INFO - downloading raw/hourlyDatasets/weatherData_08_01_2026_01_02_19.csv
+[2026-01-08 17:31:19,760] 34 root - INFO - File Downloaded!
+[2026-01-08 17:31:19,775] 97 root - INFO - dataset downloaded
+[2026-01-08 17:31:19,775] 99 root - INFO - downloaded dataset added
+[2026-01-08 17:31:19,775] 95 root - INFO - downloading raw/hourlyDatasets/weatherData_08_01_2026_02_02_17.csv
+[2026-01-08 17:31:20,203] 34 root - INFO - File Downloaded!
+[2026-01-08 17:31:20,208] 97 root - INFO - dataset downloaded
+[2026-01-08 17:31:20,208] 99 root - INFO - downloaded dataset added
+[2026-01-08 17:31:20,208] 95 root - INFO - downloading raw/hourlyDatasets/weatherData_08_01_2026_03_02_25.csv
+[2026-01-08 17:31:20,631] 34 root - INFO - File Downloaded!
+[2026-01-08 17:31:20,633] 97 root - INFO - dataset downloaded
+[2026-01-08 17:31:20,634] 99 root - INFO - downloaded dataset added
+[2026-01-08 17:31:20,634] 95 root - INFO - downloading raw/hourlyDatasets/weatherData_08_01_2026_04_02_15.csv
+[2026-01-08 17:31:21,062] 34 root - INFO - File Downloaded!
+[2026-01-08 17:31:21,063] 97 root - INFO - dataset downloaded
+[2026-01-08 17:31:21,064] 99 root - INFO - downloaded dataset added
+[2026-01-08 17:31:21,064] 95 root - INFO - downloading raw/hourlyDatasets/weatherData_08_01_2026_05_02_16.csv
+[2026-01-08 17:31:21,500] 34 root - INFO - File Downloaded!
+[2026-01-08 17:31:21,501] 97 root - INFO - dataset downloaded
+[2026-01-08 17:31:21,501] 99 root - INFO - downloaded dataset added
+[2026-01-08 17:31:21,501] 95 root - INFO - downloading raw/hourlyDatasets/weatherData_08_01_2026_06_02_15.csv
+[2026-01-08 17:31:21,926] 34 root - INFO - File Downloaded!
+[2026-01-08 17:31:21,927] 97 root - INFO - dataset downloaded
+[2026-01-08 17:31:21,927] 99 root - INFO - downloaded dataset added
+[2026-01-08 17:31:21,927] 95 root - INFO - downloading raw/hourlyDatasets/weatherData_08_01_2026_07_02_16.csv
+[2026-01-08 17:31:22,359] 34 root - INFO - File Downloaded!
+[2026-01-08 17:31:22,363] 97 root - INFO - dataset downloaded
+[2026-01-08 17:31:22,363] 99 root - INFO - downloaded dataset added
+[2026-01-08 17:31:22,363] 95 root - INFO - downloading raw/hourlyDatasets/weatherData_08_01_2026_08_02_17.csv
+[2026-01-08 17:31:22,795] 34 root - INFO - File Downloaded!
+[2026-01-08 17:31:22,799] 97 root - INFO - dataset downloaded
+[2026-01-08 17:31:22,800] 99 root - INFO - downloaded dataset added
+[2026-01-08 17:31:22,800] 95 root - INFO - downloading raw/hourlyDatasets/weatherData_08_01_2026_09_02_16.csv
+[2026-01-08 17:31:23,250] 34 root - INFO - File Downloaded!
+[2026-01-08 17:31:23,254] 97 root - INFO - dataset downloaded
+[2026-01-08 17:31:23,254] 99 root - INFO - downloaded dataset added
+[2026-01-08 17:31:23,254] 95 root - INFO - downloading raw/hourlyDatasets/weatherData_08_01_2026_10_02_15.csv
+[2026-01-08 17:31:23,715] 34 root - INFO - File Downloaded!
+[2026-01-08 17:31:23,717] 97 root - INFO - dataset downloaded
+[2026-01-08 17:31:23,717] 99 root - INFO - downloaded dataset added
+[2026-01-08 17:31:23,718] 95 root - INFO - downloading raw/hourlyDatasets/weatherData_08_01_2026_11_02_15.csv
+[2026-01-08 17:31:24,185] 34 root - INFO - File Downloaded!
+[2026-01-08 17:31:24,190] 97 root - INFO - dataset downloaded
+[2026-01-08 17:31:24,190] 99 root - INFO - downloaded dataset added
+[2026-01-08 17:31:24,190] 95 root - INFO - downloading raw/hourlyDatasets/weatherData_08_01_2026_12_02_18.csv
+[2026-01-08 17:31:24,928] 34 root - INFO - File Downloaded!
+[2026-01-08 17:31:24,934] 97 root - INFO - dataset downloaded
+[2026-01-08 17:31:24,934] 99 root - INFO - downloaded dataset added
+[2026-01-08 17:31:24,934] 95 root - INFO - downloading raw/hourlyDatasets/weatherData_08_01_2026_13_02_31.csv
+[2026-01-08 17:31:25,460] 34 root - INFO - File Downloaded!
+[2026-01-08 17:31:25,464] 97 root - INFO - dataset downloaded
+[2026-01-08 17:31:25,464] 99 root - INFO - downloaded dataset added
+[2026-01-08 17:31:25,464] 95 root - INFO - downloading raw/hourlyDatasets/weatherData_08_01_2026_14_02_19.csv
+[2026-01-08 17:31:25,953] 34 root - INFO - File Downloaded!
+[2026-01-08 17:31:25,957] 97 root - INFO - dataset downloaded
+[2026-01-08 17:31:25,957] 99 root - INFO - downloaded dataset added
+[2026-01-08 17:31:25,957] 95 root - INFO - downloading raw/hourlyDatasets/weatherData_08_01_2026_15_02_15.csv
+[2026-01-08 17:31:26,469] 34 root - INFO - File Downloaded!
+[2026-01-08 17:31:26,476] 97 root - INFO - dataset downloaded
+[2026-01-08 17:31:26,476] 99 root - INFO - downloaded dataset added
+[2026-01-08 17:31:26,476] 95 root - INFO - downloading raw/hourlyDatasets/weatherData_08_01_2026_16_02_14.csv
+[2026-01-08 17:31:26,940] 34 root - INFO - File Downloaded!
+[2026-01-08 17:31:26,944] 97 root - INFO - dataset downloaded
+[2026-01-08 17:31:26,944] 99 root - INFO - downloaded dataset added
+[2026-01-08 17:31:26,944] 95 root - INFO - downloading raw/hourlyDatasets/weatherData_08_01_2026_17_02_16.csv
+[2026-01-08 17:31:27,402] 34 root - INFO - File Downloaded!
+[2026-01-08 17:31:27,405] 97 root - INFO - dataset downloaded
+[2026-01-08 17:31:27,406] 99 root - INFO - downloaded dataset added
+[2026-01-08 17:31:28,698] 79 root - INFO - receives [             city      lat      lon   temp  feels_like  ...  clouds           weather     sunrise      sunset   timestamp
+0        Windhoek -22.5594  17.0832  21.27       20.73  ...      73     broken clouds  1767845697  1767894070  1767826838
+1      Swakopmund -22.6833  14.5333  18.88       19.20  ...      11        few clouds  1767846295  1767894696  1767826936
+2      Walvis Bay -22.9575  14.5053  18.84       19.10  ...      30  scattered clouds  1767846269  1767894736  1767826937
+3         Arandis -22.4167  14.9667  20.06       19.87  ...       2         clear sky  1767846222  1767894561  1767826937
+4          Usakos -22.0000  15.6000  23.05       22.32  ...       5         clear sky  1767846120  1767894359  1767826937
+5         Omaruru -21.4333  15.9333  24.20       23.49  ...      50  scattered clouds  1767846106  1767894213  1767826937
+6     Henties Bay -22.1160  14.2845  19.09       19.40  ...      18        few clouds  1767846422  1767894689  1767826937
+7        Oshakati -17.7833  15.6833  26.63       26.63  ...      48  scattered clouds  1767846581  1767893858  1767826937
+8       Ongwediva -17.7833  15.7667  26.67       26.18  ...      44  scattered clouds  1767846561  1767893838  1767826937
+9        Ompundja -17.9115  15.7014  26.95       26.31  ...      50  scattered clouds  1767846563  1767893868  1767826937
+10        Eenhana -17.4667  16.3333  24.45       23.73  ...      20        few clouds  1767846460  1767893667  1767826937
+11   Helao Nafidi -17.4247  15.8925  25.90       25.38  ...      45  scattered clouds  1767846570  1767893768  1767826937
+12         Tsandi -17.7463  14.8866  26.13       26.13  ...      68     broken clouds  1767846776  1767894045  1767826937
+13         Okahao -17.8850  15.0667  25.94       25.43  ...      49  scattered clouds  1767846718  1767894017  1767826937
+14         Tsumeb -19.2333  17.7167  25.87       25.50  ...      74     broken clouds  1767845931  1767893532  1767826938
+15         Oniipa -17.9141  16.0424  26.99       26.27  ...      38  scattered clouds  1767846480  1767893786  1767826938
+16    Otjiwarongo -20.4637  16.6477  22.69       21.80  ...      47  scattered clouds  1767846047  1767893929  1767826938
+17   Grootfontein -19.5667  18.1167  25.61       25.27  ...      92   overcast clouds  1767845797  1767893474  1767826938
+18      Okakarara -20.5833  17.4333  25.01       24.32  ...      71     broken clouds  1767845845  1767893754  1767826879
+19          Opuwo -18.0607  13.8400  22.43       21.83  ...      76     broken clouds  1767846993  1767894331  1767826938
+20       Khorixas -20.3667  14.9667  21.51       20.71  ...      17        few clouds  1767846462  1767894321  1767826938
+21  Katima Mulilo -17.5000  24.2667  22.59       22.39  ...      58     broken clouds  1767844552  1767891766  1767826938
+22        Kongola   9.0665 -10.1959  23.00       23.18  ...      98   overcast clouds  1767769093  1767810922  1767826938
+23          Rundu -17.9333  19.7667  24.60       24.06  ...      99   overcast clouds  1767845584  1767892895  1767826938
+24    Otjiwarongo -20.4637  16.6477  22.69       21.80  ...      47  scattered clouds  1767846047  1767893929  1767826938
+25      Mariental -24.6333  17.9667  28.42       27.12  ...      10         clear sky  1767845234  1767894109  1767826938
+26       Rehoboth -23.3167  17.0833  24.71       24.20  ...      71     broken clouds  1767845607  1767894160  1767826938
+27         Gibeon  37.9724 -76.6197  10.37        9.21  ...      19        few clouds  1767788559  1767823348  1767826938
+28   Keetmanshoop -26.5833  18.1333  26.84       26.18  ...       0         clear sky  1767844949  1767894314  1767826938
+29       Lüderitz -26.6481  15.1594  18.76       18.65  ...       0         clear sky  1767845655  1767895036  1767826939
+30     Oranjemund -28.5500  16.4333  16.66       16.71  ...       1         clear sky  1767845100  1767894979  1767826939
+31      Karasburg -28.0167  18.7500  23.26       22.53  ...       0         clear sky  1767844614  1767894352  1767826939
+32        Gobabis -22.4500  18.9667  25.00       24.65  ...      24        few clouds  1767845258  1767893605  1767826939
+33   Leonardville  39.3644 -96.8589  15.24       13.73  ...      53     broken clouds  1767793647  1767827977  1767826939
+34        Witvlei -22.4000  18.4833  25.67       25.36  ...      50  scattered clouds  1767845380  1767893715  1767826939
+
+[35 rows x 15 columns],              city      lat      lon   temp  ...           weather       sunrise        sunset     timestamp
+0        Windhoek -22.5594  17.0832  19.68  ...     broken clouds  1.767846e+09  1.767894e+09  1.767830e+09
+1      Swakopmund -22.6833  14.5333  18.88  ...         clear sky  1.767846e+09  1.767895e+09  1.767831e+09
+2      Walvis Bay -22.9575  14.5053  18.68  ...  scattered clouds  1.767846e+09  1.767895e+09  1.767831e+09
+3         Arandis -22.4167  14.9667  20.09  ...         clear sky  1.767846e+09  1.767895e+09  1.767831e+09
+4          Usakos -22.0000  15.6000  22.78  ...         clear sky  1.767846e+09  1.767894e+09  1.767831e+09
+5         Omaruru -21.4333  15.9333  23.52  ...     broken clouds  1.767846e+09  1.767894e+09  1.767831e+09
+6     Henties Bay -22.1160  14.2845  18.95  ...        few clouds  1.767846e+09  1.767895e+09  1.767831e+09
+7        Oshakati -17.7833  15.6833  26.23  ...  scattered clouds  1.767847e+09  1.767894e+09  1.767831e+09
+8       Ongwediva -17.7833  15.7667  26.27  ...  scattered clouds  1.767847e+09  1.767894e+09  1.767831e+09
+9        Ompundja -17.9115  15.7014  26.37  ...  scattered clouds  1.767847e+09  1.767894e+09  1.767831e+09
+10        Eenhana -17.4667  16.3333  24.68  ...        few clouds  1.767846e+09  1.767894e+09  1.767831e+09
+11   Helao Nafidi -17.4247  15.8925  25.24  ...  scattered clouds  1.767847e+09  1.767894e+09  1.767831e+09
+12         Tsandi -17.7463  14.8866  25.26  ...     broken clouds  1.767847e+09  1.767894e+09  1.767831e+09
+13         Okahao -17.8850  15.0667  25.26  ...     broken clouds  1.767847e+09  1.767894e+09  1.767831e+09
+14         Tsumeb -19.2333  17.7167  25.05  ...     broken clouds  1.767846e+09  1.767894e+09  1.767831e+09
+15         Oniipa -17.9141  16.0424  26.10  ...  scattered clouds  1.767846e+09  1.767894e+09  1.767831e+09
+16    Otjiwarongo -20.4637  16.6477  22.50  ...  scattered clouds  1.767846e+09  1.767894e+09  1.767831e+09
+17   Grootfontein -19.5667  18.1167  24.84  ...   overcast clouds  1.767846e+09  1.767893e+09  1.767831e+09
+18      Okakarara -20.5833  17.4333  24.32  ...     broken clouds  1.767846e+09  1.767894e+09  1.767831e+09
+19          Opuwo -18.0607  13.8400  21.75  ...     broken clouds  1.767847e+09  1.767894e+09  1.767831e+09
+20       Khorixas -20.3667  14.9667  20.98  ...        few clouds  1.767846e+09  1.767894e+09  1.767831e+09
+21  Katima Mulilo -17.5000  24.2667  22.26  ...     broken clouds  1.767845e+09  1.767892e+09  1.767831e+09
+22        Kongola   9.0665 -10.1959  22.96  ...   overcast clouds  1.767856e+09  1.767897e+09  1.767831e+09
+23          Rundu -17.9333  19.7667  24.13  ...   overcast clouds  1.767846e+09  1.767893e+09  1.767831e+09
+24    Otjiwarongo -20.4637  16.6477  22.50  ...  scattered clouds  1.767846e+09  1.767894e+09  1.767831e+09
+25      Mariental -24.6333  17.9667  27.78  ...         clear sky  1.767845e+09  1.767894e+09  1.767831e+09
+26       Rehoboth -23.3167  17.0833  24.11  ...     broken clouds  1.767846e+09  1.767894e+09  1.767831e+09
+27         Gibeon  37.9724 -76.6197   7.67  ...        few clouds  1.767789e+09  1.767823e+09  1.767831e+09
+28   Keetmanshoop -26.5833  18.1333  25.78  ...         clear sky  1.767845e+09  1.767894e+09  1.767831e+09
+29       Lüderitz -26.6481  15.1594  18.47  ...         clear sky  1.767846e+09  1.767895e+09  1.767831e+09
+30     Oranjemund -28.5500  16.4333  16.64  ...         clear sky  1.767845e+09  1.767895e+09  1.767831e+09
+31      Karasburg -28.0167  18.7500  22.50  ...         clear sky  1.767845e+09  1.767894e+09  1.767831e+09
+32        Gobabis -22.4500  18.9667  24.53  ...        few clouds  1.767845e+09  1.767894e+09  1.767831e+09
+33   Leonardville  39.3644 -96.8589  13.50  ...  scattered clouds  1.767794e+09  1.767828e+09  1.767831e+09
+34        Witvlei -22.4000  18.4833  25.27  ...     broken clouds  1.767845e+09  1.767894e+09  1.767831e+09
+35            939      NaN      NaN    NaN  ...               NaN           NaN           NaN           NaN
+
+[36 rows x 15 columns],              city      lat      lon   temp  ...           weather       sunrise        sunset     timestamp
+0        Windhoek -22.5594  17.0832  21.35  ...         clear sky  1.767846e+09  1.767894e+09  1.767834e+09
+1      Swakopmund -22.6833  14.5333  19.43  ...         clear sky  1.767846e+09  1.767895e+09  1.767834e+09
+2      Walvis Bay -22.9575  14.5053  18.92  ...         clear sky  1.767846e+09  1.767895e+09  1.767834e+09
+3         Arandis -22.4167  14.9667  19.76  ...         clear sky  1.767846e+09  1.767895e+09  1.767834e+09
+4          Usakos -22.0000  15.6000  22.79  ...  scattered clouds  1.767846e+09  1.767894e+09  1.767834e+09
+5         Omaruru -21.4333  15.9333  22.88  ...  scattered clouds  1.767846e+09  1.767894e+09  1.767834e+09
+6     Henties Bay -22.1160  14.2845  18.97  ...        few clouds  1.767846e+09  1.767895e+09  1.767834e+09
+7        Oshakati -17.7833  15.6833  25.46  ...   overcast clouds  1.767847e+09  1.767894e+09  1.767834e+09
+8       Ongwediva -17.7833  15.7667  25.49  ...   overcast clouds  1.767847e+09  1.767894e+09  1.767834e+09
+9        Ompundja -17.9115  15.7014  25.39  ...   overcast clouds  1.767847e+09  1.767894e+09  1.767834e+09
+10        Eenhana -17.4667  16.3333  23.56  ...     broken clouds  1.767846e+09  1.767894e+09  1.767834e+09
+11   Helao Nafidi -17.4247  15.8925  24.48  ...        few clouds  1.767847e+09  1.767894e+09  1.767834e+09
+12         Tsandi -17.7463  14.8866  24.49  ...     broken clouds  1.767847e+09  1.767894e+09  1.767834e+09
+13         Okahao -17.8850  15.0667  24.51  ...   overcast clouds  1.767847e+09  1.767894e+09  1.767834e+09
+14         Tsumeb -19.2333  17.7167  25.44  ...     broken clouds  1.767846e+09  1.767894e+09  1.767834e+09
+15         Oniipa -17.9141  16.0424  25.13  ...   overcast clouds  1.767846e+09  1.767894e+09  1.767834e+09
+16    Otjiwarongo -20.4637  16.6477  23.25  ...   overcast clouds  1.767846e+09  1.767894e+09  1.767834e+09
+17   Grootfontein -19.5667  18.1167  23.98  ...        few clouds  1.767846e+09  1.767893e+09  1.767834e+09
+18      Okakarara -20.5833  17.4333  23.67  ...  scattered clouds  1.767846e+09  1.767894e+09  1.767834e+09
+19          Opuwo -18.0607  13.8400  21.49  ...   overcast clouds  1.767847e+09  1.767894e+09  1.767834e+09
+20       Khorixas -20.3667  14.9667  21.05  ...   overcast clouds  1.767846e+09  1.767894e+09  1.767834e+09
+21  Katima Mulilo -17.5000  24.2667  21.88  ...   overcast clouds  1.767845e+09  1.767892e+09  1.767834e+09
+22        Kongola   9.0665 -10.1959  22.68  ...     broken clouds  1.767856e+09  1.767897e+09  1.767834e+09
+23          Rundu -17.9333  19.7667  24.52  ...   overcast clouds  1.767846e+09  1.767893e+09  1.767834e+09
+24    Otjiwarongo -20.4637  16.6477  23.25  ...   overcast clouds  1.767846e+09  1.767894e+09  1.767834e+09
+25      Mariental -24.6333  17.9667  27.15  ...         clear sky  1.767845e+09  1.767894e+09  1.767834e+09
+26       Rehoboth -23.3167  17.0833  23.90  ...         clear sky  1.767846e+09  1.767894e+09  1.767834e+09
+27         Gibeon  37.9724 -76.6197   6.58  ...         clear sky  1.767789e+09  1.767823e+09  1.767834e+09
+28   Keetmanshoop -26.5833  18.1333  24.58  ...         clear sky  1.767845e+09  1.767894e+09  1.767834e+09
+29       Lüderitz -26.6481  15.1594  18.65  ...         clear sky  1.767846e+09  1.767895e+09  1.767834e+09
+30     Oranjemund -28.5500  16.4333  16.59  ...         clear sky  1.767845e+09  1.767895e+09  1.767834e+09
+31      Karasburg -28.0167  18.7500  21.60  ...         clear sky  1.767845e+09  1.767894e+09  1.767834e+09
+32        Gobabis -22.4500  18.9667  24.28  ...         clear sky  1.767845e+09  1.767894e+09  1.767834e+09
+33   Leonardville  39.3644 -96.8589  10.94  ...   overcast clouds  1.767794e+09  1.767828e+09  1.767834e+09
+34        Witvlei -22.4000  18.4833  24.21  ...         clear sky  1.767845e+09  1.767894e+09  1.767834e+09
+35           0537      NaN      NaN    NaN  ...               NaN           NaN           NaN           NaN
+36            939      NaN      NaN    NaN  ...               NaN           NaN           NaN           NaN
+
+[37 rows x 15 columns],              city           lat      lon   temp  ...           weather       sunrise        sunset     timestamp
+0        Windhoek -2.255940e+01  17.0832  21.90  ...         clear sky  1.767846e+09  1.767894e+09  1.767838e+09
+1      Swakopmund -2.268330e+01  14.5333  19.43  ...         clear sky  1.767846e+09  1.767895e+09  1.767838e+09
+2      Walvis Bay -2.295750e+01  14.5053  18.78  ...         clear sky  1.767846e+09  1.767895e+09  1.767838e+09
+3         Arandis -2.241670e+01  14.9667  19.20  ...         clear sky  1.767846e+09  1.767895e+09  1.767838e+09
+4          Usakos -2.200000e+01  15.6000  23.00  ...     broken clouds  1.767846e+09  1.767894e+09  1.767838e+09
+5         Omaruru -2.143330e+01  15.9333  23.14  ...     broken clouds  1.767846e+09  1.767894e+09  1.767838e+09
+6     Henties Bay -2.211600e+01  14.2845  18.83  ...        few clouds  1.767846e+09  1.767895e+09  1.767838e+09
+7        Oshakati -1.778330e+01  15.6833  24.51  ...   overcast clouds  1.767847e+09  1.767894e+09  1.767838e+09
+8       Ongwediva -1.778330e+01  15.7667  24.48  ...   overcast clouds  1.767847e+09  1.767894e+09  1.767838e+09
+9        Ompundja -1.791150e+01  15.7014  24.66  ...   overcast clouds  1.767847e+09  1.767894e+09  1.767838e+09
+10        Eenhana -1.746670e+01  16.3333  21.99  ...  scattered clouds  1.767846e+09  1.767894e+09  1.767838e+09
+11   Helao Nafidi -1.742470e+01  15.8925  23.49  ...        few clouds  1.767847e+09  1.767894e+09  1.767838e+09
+12         Tsandi -1.774630e+01  14.8866  23.72  ...  scattered clouds  1.767847e+09  1.767894e+09  1.767838e+09
+13         Okahao -1.788500e+01  15.0667  23.79  ...   overcast clouds  1.767847e+09  1.767894e+09  1.767838e+09
+14         Tsumeb -1.923330e+01  17.7167  24.34  ...  scattered clouds  1.767846e+09  1.767894e+09  1.767838e+09
+15         Oniipa -1.791410e+01  16.0424  24.24  ...   overcast clouds  1.767846e+09  1.767894e+09  1.767838e+09
+16    Otjiwarongo -2.046370e+01  16.6477  22.96  ...   overcast clouds  1.767846e+09  1.767894e+09  1.767838e+09
+17   Grootfontein -1.956670e+01  18.1167  23.22  ...  scattered clouds  1.767846e+09  1.767893e+09  1.767838e+09
+18      Okakarara -2.058330e+01  17.4333  22.77  ...        few clouds  1.767846e+09  1.767894e+09  1.767838e+09
+19          Opuwo -1.806070e+01  13.8400  21.06  ...   overcast clouds  1.767847e+09  1.767894e+09  1.767838e+09
+20       Khorixas -2.036670e+01  14.9667  20.55  ...   overcast clouds  1.767846e+09  1.767894e+09  1.767838e+09
+21  Katima Mulilo -1.750000e+01  24.2667  21.96  ...     broken clouds  1.767845e+09  1.767892e+09  1.767838e+09
+22        Kongola  9.066500e+00 -10.1959  22.11  ...     broken clouds  1.767856e+09  1.767897e+09  1.767838e+09
+23          Rundu -1.793330e+01  19.7667  23.54  ...   overcast clouds  1.767846e+09  1.767893e+09  1.767838e+09
+24    Otjiwarongo -2.046370e+01  16.6477  22.96  ...   overcast clouds  1.767846e+09  1.767894e+09  1.767838e+09
+25      Mariental -2.463330e+01  17.9667  26.19  ...         clear sky  1.767845e+09  1.767894e+09  1.767838e+09
+26       Rehoboth -2.331670e+01  17.0833  23.46  ...         clear sky  1.767846e+09  1.767894e+09  1.767838e+09
+27         Gibeon  3.797240e+01 -76.6197   5.39  ...         clear sky  1.767789e+09  1.767823e+09  1.767838e+09
+28   Keetmanshoop -2.658330e+01  18.1333  23.80  ...         clear sky  1.767845e+09  1.767894e+09  1.767838e+09
+29       Lüderitz -2.664810e+01  15.1594  18.40  ...         clear sky  1.767846e+09  1.767895e+09  1.767838e+09
+30     Oranjemund -2.855000e+01  16.4333  16.40  ...         clear sky  1.767845e+09  1.767895e+09  1.767838e+09
+31      Karasburg -2.801670e+01  18.7500  20.94  ...         clear sky  1.767845e+09  1.767894e+09  1.767838e+09
+32        Gobabis -2.245000e+01  18.9667  23.75  ...         clear sky  1.767845e+09  1.767894e+09  1.767838e+09
+33   Leonardville  3.936440e+01 -96.8589   9.58  ...     broken clouds  1.767794e+09  1.767828e+09  1.767838e+09
+34        Witvlei -2.240000e+01  18.4833  23.78  ...         clear sky  1.767845e+09  1.767894e+09  1.767838e+09
+35            715  1.767834e+09      NaN    NaN  ...               NaN           NaN           NaN           NaN
+36           0537           NaN      NaN    NaN  ...               NaN           NaN           NaN           NaN
+37            939           NaN      NaN    NaN  ...               NaN           NaN           NaN           NaN
+
+[38 rows x 15 columns],              city           lat      lon   temp  ...           weather       sunrise        sunset     timestamp
+0        Windhoek -2.255940e+01  17.0832  21.90  ...         clear sky  1.767846e+09  1.767894e+09  1.767841e+09
+1      Swakopmund -2.268330e+01  14.5333  19.43  ...        few clouds  1.767846e+09  1.767895e+09  1.767841e+09
+2      Walvis Bay -2.295750e+01  14.5053  19.53  ...         clear sky  1.767846e+09  1.767895e+09  1.767841e+09
+3         Arandis -2.241670e+01  14.9667  18.59  ...        few clouds  1.767846e+09  1.767895e+09  1.767841e+09
+4          Usakos -2.200000e+01  15.6000  23.60  ...     broken clouds  1.767846e+09  1.767894e+09  1.767841e+09
+5         Omaruru -2.143330e+01  15.9333  23.20  ...     broken clouds  1.767846e+09  1.767894e+09  1.767841e+09
+6     Henties Bay -2.211600e+01  14.2845  18.68  ...        few clouds  1.767846e+09  1.767895e+09  1.767841e+09
+7        Oshakati -1.778330e+01  15.6833  23.87  ...   overcast clouds  1.767847e+09  1.767894e+09  1.767841e+09
+8       Ongwediva -1.778330e+01  15.7667  23.87  ...   overcast clouds  1.767847e+09  1.767894e+09  1.767841e+09
+9        Ompundja -1.791150e+01  15.7014  24.01  ...   overcast clouds  1.767847e+09  1.767894e+09  1.767841e+09
+10        Eenhana -1.746670e+01  16.3333  20.90  ...  scattered clouds  1.767846e+09  1.767894e+09  1.767841e+09
+11   Helao Nafidi -1.742470e+01  15.8925  22.65  ...  scattered clouds  1.767847e+09  1.767894e+09  1.767841e+09
+12         Tsandi -1.774630e+01  14.8866  23.07  ...     broken clouds  1.767847e+09  1.767894e+09  1.767841e+09
+13         Okahao -1.788500e+01  15.0667  23.13  ...   overcast clouds  1.767847e+09  1.767894e+09  1.767841e+09
+14         Tsumeb -1.923330e+01  17.7167  23.90  ...  scattered clouds  1.767846e+09  1.767894e+09  1.767841e+09
+15         Oniipa -1.791410e+01  16.0424  23.53  ...   overcast clouds  1.767846e+09  1.767894e+09  1.767841e+09
+16    Otjiwarongo -2.046370e+01  16.6477  22.16  ...   overcast clouds  1.767846e+09  1.767894e+09  1.767841e+09
+17   Grootfontein -1.956670e+01  18.1167  22.45  ...        few clouds  1.767846e+09  1.767893e+09  1.767841e+09
+18      Okakarara -2.058330e+01  17.4333  22.14  ...        few clouds  1.767846e+09  1.767894e+09  1.767841e+09
+19          Opuwo -1.806070e+01  13.8400  20.63  ...     broken clouds  1.767847e+09  1.767894e+09  1.767841e+09
+20       Khorixas -2.036670e+01  14.9667  20.24  ...     broken clouds  1.767846e+09  1.767894e+09  1.767841e+09
+21  Katima Mulilo -1.750000e+01  24.2667  21.03  ...     broken clouds  1.767845e+09  1.767892e+09  1.767841e+09
+22        Kongola  9.066500e+00 -10.1959  21.64  ...     broken clouds  1.767856e+09  1.767897e+09  1.767841e+09
+23          Rundu -1.793330e+01  19.7667  23.30  ...   overcast clouds  1.767846e+09  1.767893e+09  1.767841e+09
+24    Otjiwarongo -2.046370e+01  16.6477  22.16  ...   overcast clouds  1.767846e+09  1.767894e+09  1.767841e+09
+25      Mariental -2.463330e+01  17.9667  25.35  ...         clear sky  1.767845e+09  1.767894e+09  1.767841e+09
+26       Rehoboth -2.331670e+01  17.0833  23.04  ...         clear sky  1.767846e+09  1.767894e+09  1.767841e+09
+27         Gibeon  3.797240e+01 -76.6197   4.46  ...         clear sky  1.767789e+09  1.767823e+09  1.767841e+09
+28   Keetmanshoop -2.658330e+01  18.1333  23.25  ...         clear sky  1.767845e+09  1.767894e+09  1.767841e+09
+29       Lüderitz -2.664810e+01  15.1594  18.01  ...         clear sky  1.767846e+09  1.767895e+09  1.767841e+09
+30     Oranjemund -2.855000e+01  16.4333  15.77  ...         clear sky  1.767845e+09  1.767895e+09  1.767841e+09
+31      Karasburg -2.801670e+01  18.7500  20.32  ...         clear sky  1.767845e+09  1.767894e+09  1.767841e+09
+32        Gobabis -2.245000e+01  18.9667  23.20  ...         clear sky  1.767845e+09  1.767894e+09  1.767841e+09
+33   Leonardville  3.936440e+01 -96.8589   7.91  ...     broken clouds  1.767794e+09  1.767828e+09  1.767841e+09
+34        Witvlei -2.240000e+01  18.4833  23.13  ...         clear sky  1.767845e+09  1.767894e+09  1.767841e+09
+35             15  1.767838e+09      NaN    NaN  ...               NaN           NaN           NaN           NaN
+36            715  1.767834e+09      NaN    NaN  ...               NaN           NaN           NaN           NaN
+37           0537           NaN      NaN    NaN  ...               NaN           NaN           NaN           NaN
+38            939           NaN      NaN    NaN  ...               NaN           NaN           NaN           NaN
+
+[39 rows x 15 columns],              city           lat      lon   temp  ...           weather       sunrise        sunset     timestamp
+0        Windhoek -2.255940e+01  17.0832  20.27  ...         clear sky  1.767846e+09  1.767894e+09  1.767845e+09
+1      Swakopmund -2.268330e+01  14.5333  19.43  ...        few clouds  1.767846e+09  1.767895e+09  1.767845e+09
+2      Walvis Bay -2.295750e+01  14.5053  19.53  ...         clear sky  1.767846e+09  1.767895e+09  1.767845e+09
+3         Arandis -2.241670e+01  14.9667  18.15  ...        few clouds  1.767846e+09  1.767895e+09  1.767845e+09
+4          Usakos -2.200000e+01  15.6000  23.74  ...     broken clouds  1.767846e+09  1.767894e+09  1.767845e+09
+5         Omaruru -2.143330e+01  15.9333  23.21  ...   overcast clouds  1.767846e+09  1.767894e+09  1.767845e+09
+6     Henties Bay -2.211600e+01  14.2845  18.52  ...        few clouds  1.767846e+09  1.767895e+09  1.767845e+09
+7        Oshakati -1.778330e+01  15.6833  23.30  ...   overcast clouds  1.767847e+09  1.767894e+09  1.767845e+09
+8       Ongwediva -1.778330e+01  15.7667  23.27  ...   overcast clouds  1.767847e+09  1.767894e+09  1.767845e+09
+9        Ompundja -1.791150e+01  15.7014  23.45  ...   overcast clouds  1.767847e+09  1.767894e+09  1.767845e+09
+10        Eenhana -1.746670e+01  16.3333  20.47  ...     broken clouds  1.767846e+09  1.767894e+09  1.767845e+09
+11   Helao Nafidi -1.742470e+01  15.8925  21.93  ...     broken clouds  1.767847e+09  1.767894e+09  1.767845e+09
+12         Tsandi -1.774630e+01  14.8866  22.41  ...     broken clouds  1.767847e+09  1.767894e+09  1.767845e+09
+13         Okahao -1.788500e+01  15.0667  22.55  ...   overcast clouds  1.767847e+09  1.767894e+09  1.767845e+09
+14         Tsumeb -1.923330e+01  17.7167  23.84  ...  scattered clouds  1.767846e+09  1.767894e+09  1.767845e+09
+15         Oniipa -1.791410e+01  16.0424  22.96  ...   overcast clouds  1.767846e+09  1.767894e+09  1.767845e+09
+16    Otjiwarongo -2.046370e+01  16.6477  21.51  ...   overcast clouds  1.767846e+09  1.767894e+09  1.767845e+09
+17   Grootfontein -1.956670e+01  18.1167  21.97  ...        few clouds  1.767846e+09  1.767893e+09  1.767845e+09
+18      Okakarara -2.058330e+01  17.4333  21.72  ...        few clouds  1.767846e+09  1.767894e+09  1.767845e+09
+19          Opuwo -1.806070e+01  13.8400  20.26  ...     broken clouds  1.767847e+09  1.767894e+09  1.767845e+09
+20       Khorixas -2.036670e+01  14.9667  20.04  ...     broken clouds  1.767846e+09  1.767894e+09  1.767845e+09
+21  Katima Mulilo -1.750000e+01  24.2667  20.70  ...     broken clouds  1.767845e+09  1.767892e+09  1.767845e+09
+22        Kongola  9.066500e+00 -10.1959  21.16  ...     broken clouds  1.767856e+09  1.767897e+09  1.767845e+09
+23          Rundu -1.793330e+01  19.7667  22.44  ...   overcast clouds  1.767846e+09  1.767893e+09  1.767845e+09
+24    Otjiwarongo -2.046370e+01  16.6477  21.51  ...   overcast clouds  1.767846e+09  1.767894e+09  1.767845e+09
+25      Mariental -2.463330e+01  17.9667  24.60  ...         clear sky  1.767845e+09  1.767894e+09  1.767845e+09
+26       Rehoboth -2.331670e+01  17.0833  22.57  ...         clear sky  1.767846e+09  1.767894e+09  1.767845e+09
+27         Gibeon  3.797240e+01 -76.6197   4.69  ...         clear sky  1.767789e+09  1.767823e+09  1.767845e+09
+28   Keetmanshoop -2.658330e+01  18.1333  22.66  ...         clear sky  1.767845e+09  1.767894e+09  1.767845e+09
+29       Lüderitz -2.664810e+01  15.1594  17.68  ...         clear sky  1.767846e+09  1.767895e+09  1.767845e+09
+30     Oranjemund -2.855000e+01  16.4333  15.38  ...         clear sky  1.767845e+09  1.767895e+09  1.767845e+09
+31      Karasburg -2.801670e+01  18.7500  19.74  ...         clear sky  1.767845e+09  1.767894e+09  1.767845e+09
+32        Gobabis -2.245000e+01  18.9667  22.75  ...         clear sky  1.767845e+09  1.767894e+09  1.767845e+09
+33   Leonardville  3.936440e+01 -96.8589   5.32  ...     broken clouds  1.767794e+09  1.767828e+09  1.767845e+09
+34        Witvlei -2.240000e+01  18.4833  22.30  ...         clear sky  1.767845e+09  1.767894e+09  1.767845e+09
+35       67837735           NaN      NaN    NaN  ...               NaN           NaN           NaN           NaN
+36            715  1.767834e+09      NaN    NaN  ...               NaN           NaN           NaN           NaN
+37           0537           NaN      NaN    NaN  ...               NaN           NaN           NaN           NaN
+38            939           NaN      NaN    NaN  ...               NaN           NaN           NaN           NaN
+
+[39 rows x 15 columns],              city           lat      lon   temp  ...           weather       sunrise        sunset     timestamp
+0        Windhoek -2.255940e+01  17.0832  19.27  ...         clear sky  1.767846e+09  1.767894e+09  1.767848e+09
+1      Swakopmund -2.268330e+01  14.5333  19.43  ...        few clouds  1.767846e+09  1.767895e+09  1.767848e+09
+2      Walvis Bay -2.295750e+01  14.5053  19.53  ...   overcast clouds  1.767846e+09  1.767895e+09  1.767848e+09
+3         Arandis -2.241670e+01  14.9667  18.50  ...  scattered clouds  1.767846e+09  1.767895e+09  1.767849e+09
+4          Usakos -2.200000e+01  15.6000  24.02  ...     broken clouds  1.767846e+09  1.767894e+09  1.767849e+09
+5         Omaruru -2.143330e+01  15.9333  23.27  ...   overcast clouds  1.767846e+09  1.767894e+09  1.767849e+09
+6     Henties Bay -2.211600e+01  14.2845  18.57  ...        few clouds  1.767846e+09  1.767895e+09  1.767849e+09
+7        Oshakati -1.778330e+01  15.6833  23.00  ...     broken clouds  1.767847e+09  1.767894e+09  1.767849e+09
+8       Ongwediva -1.778330e+01  15.7667  22.96  ...     broken clouds  1.767847e+09  1.767894e+09  1.767849e+09
+9        Ompundja -1.791150e+01  15.7014  23.13  ...     broken clouds  1.767847e+09  1.767894e+09  1.767849e+09
+10        Eenhana -1.746670e+01  16.3333  20.60  ...     broken clouds  1.767846e+09  1.767894e+09  1.767849e+09
+11   Helao Nafidi -1.742470e+01  15.8925  21.72  ...     broken clouds  1.767847e+09  1.767894e+09  1.767849e+09
+12         Tsandi -1.774630e+01  14.8866  22.07  ...     broken clouds  1.767847e+09  1.767894e+09  1.767849e+09
+13         Okahao -1.788500e+01  15.0667  22.26  ...   overcast clouds  1.767847e+09  1.767894e+09  1.767849e+09
+14         Tsumeb -1.923330e+01  17.7167  23.92  ...  scattered clouds  1.767846e+09  1.767894e+09  1.767849e+09
+15         Oniipa -1.791410e+01  16.0424  22.69  ...     broken clouds  1.767846e+09  1.767894e+09  1.767849e+09
+16    Otjiwarongo -2.046370e+01  16.6477  21.61  ...     broken clouds  1.767846e+09  1.767894e+09  1.767849e+09
+17   Grootfontein -1.956670e+01  18.1167  22.05  ...        few clouds  1.767846e+09  1.767893e+09  1.767849e+09
+18      Okakarara -2.058330e+01  17.4333  21.88  ...        few clouds  1.767846e+09  1.767894e+09  1.767849e+09
+19          Opuwo -1.806070e+01  13.8400  20.46  ...     broken clouds  1.767847e+09  1.767894e+09  1.767849e+09
+20       Khorixas -2.036670e+01  14.9667  20.50  ...  scattered clouds  1.767846e+09  1.767894e+09  1.767849e+09
+21  Katima Mulilo -1.750000e+01  24.2667  22.06  ...     broken clouds  1.767845e+09  1.767892e+09  1.767849e+09
+22        Kongola  9.066500e+00 -10.1959  20.86  ...     broken clouds  1.767856e+09  1.767897e+09  1.767849e+09
+23          Rundu -1.793330e+01  19.7667  22.89  ...   overcast clouds  1.767846e+09  1.767893e+09  1.767849e+09
+24    Otjiwarongo -2.046370e+01  16.6477  21.61  ...     broken clouds  1.767846e+09  1.767894e+09  1.767849e+09
+25      Mariental -2.463330e+01  17.9667  25.30  ...         clear sky  1.767845e+09  1.767894e+09  1.767849e+09
+26       Rehoboth -2.331670e+01  17.0833  23.36  ...         clear sky  1.767846e+09  1.767894e+09  1.767849e+09
+27         Gibeon  3.797240e+01 -76.6197   4.27  ...         clear sky  1.767875e+09  1.767910e+09  1.767849e+09
+28   Keetmanshoop -2.658330e+01  18.1333  23.32  ...         clear sky  1.767845e+09  1.767894e+09  1.767849e+09
+29       Lüderitz -2.664810e+01  15.1594  18.51  ...         clear sky  1.767846e+09  1.767895e+09  1.767849e+09
+30     Oranjemund -2.855000e+01  16.4333  17.17  ...         clear sky  1.767845e+09  1.767895e+09  1.767849e+09
+31      Karasburg -2.801670e+01  18.7500  20.87  ...         clear sky  1.767845e+09  1.767894e+09  1.767849e+09
+32        Gobabis -2.245000e+01  18.9667  23.95  ...         clear sky  1.767845e+09  1.767894e+09  1.767849e+09
+33   Leonardville  3.936440e+01 -96.8589   6.91  ...   overcast clouds  1.767794e+09  1.767828e+09  1.767849e+09
+34        Witvlei -2.240000e+01  18.4833  22.90  ...         clear sky  1.767845e+09  1.767894e+09  1.767849e+09
+35          37735           NaN      NaN    NaN  ...               NaN           NaN           NaN           NaN
+36            715  1.767834e+09      NaN    NaN  ...               NaN           NaN           NaN           NaN
+37           0537           NaN      NaN    NaN  ...               NaN           NaN           NaN           NaN
+38            939           NaN      NaN    NaN  ...               NaN           NaN           NaN           NaN
+
+[39 rows x 15 columns],              city           lat      lon   temp  ...           weather       sunrise        sunset     timestamp
+0        Windhoek -2.255940e+01  17.0832  21.27  ...         clear sky  1.767846e+09  1.767894e+09  1.767852e+09
+1      Swakopmund -2.268330e+01  14.5333  19.99  ...        few clouds  1.767846e+09  1.767895e+09  1.767852e+09
+2      Walvis Bay -2.295750e+01  14.5053  19.53  ...   overcast clouds  1.767846e+09  1.767895e+09  1.767852e+09
+3         Arandis -2.241670e+01  14.9667  19.97  ...  scattered clouds  1.767846e+09  1.767895e+09  1.767852e+09
+4          Usakos -2.200000e+01  15.6000  24.81  ...     broken clouds  1.767846e+09  1.767894e+09  1.767852e+09
+5         Omaruru -2.143330e+01  15.9333  24.44  ...     broken clouds  1.767846e+09  1.767894e+09  1.767852e+09
+6     Henties Bay -2.211600e+01  14.2845  18.94  ...        few clouds  1.767846e+09  1.767895e+09  1.767852e+09
+7        Oshakati -1.778330e+01  15.6833  23.98  ...     broken clouds  1.767847e+09  1.767894e+09  1.767852e+09
+8       Ongwediva -1.778330e+01  15.7667  24.02  ...     broken clouds  1.767847e+09  1.767894e+09  1.767852e+09
+9        Ompundja -1.791150e+01  15.7014  24.03  ...     broken clouds  1.767847e+09  1.767894e+09  1.767852e+09
+10        Eenhana -1.746670e+01  16.3333  24.02  ...     broken clouds  1.767846e+09  1.767894e+09  1.767852e+09
+11   Helao Nafidi -1.742470e+01  15.8925  24.09  ...  scattered clouds  1.767847e+09  1.767894e+09  1.767852e+09
+12         Tsandi -1.774630e+01  14.8866  23.77  ...     broken clouds  1.767847e+09  1.767894e+09  1.767852e+09
+13         Okahao -1.788500e+01  15.0667  23.60  ...     broken clouds  1.767847e+09  1.767894e+09  1.767852e+09
+14         Tsumeb -1.923330e+01  17.7167  26.68  ...        few clouds  1.767846e+09  1.767894e+09  1.767852e+09
+15         Oniipa -1.791410e+01  16.0424  23.97  ...     broken clouds  1.767846e+09  1.767894e+09  1.767852e+09
+16    Otjiwarongo -2.046370e+01  16.6477  24.28  ...     broken clouds  1.767846e+09  1.767894e+09  1.767852e+09
+17   Grootfontein -1.956670e+01  18.1167  19.76  ...        few clouds  1.767846e+09  1.767893e+09  1.767852e+09
+18      Okakarara -2.058330e+01  17.4333  24.17  ...        few clouds  1.767846e+09  1.767894e+09  1.767852e+09
+19          Opuwo -1.806070e+01  13.8400  22.48  ...     broken clouds  1.767847e+09  1.767894e+09  1.767852e+09
+20       Khorixas -2.036670e+01  14.9667  21.94  ...  scattered clouds  1.767846e+09  1.767894e+09  1.767852e+09
+21  Katima Mulilo -1.750000e+01  24.2667  24.96  ...     broken clouds  1.767845e+09  1.767892e+09  1.767852e+09
+22        Kongola  9.066500e+00 -10.1959  20.78  ...     broken clouds  1.767856e+09  1.767897e+09  1.767852e+09
+23          Rundu -1.793330e+01  19.7667  24.17  ...   overcast clouds  1.767846e+09  1.767893e+09  1.767852e+09
+24    Otjiwarongo -2.046370e+01  16.6477  24.28  ...     broken clouds  1.767846e+09  1.767894e+09  1.767852e+09
+25      Mariental -2.463330e+01  17.9667  27.55  ...         clear sky  1.767845e+09  1.767894e+09  1.767852e+09
+26       Rehoboth -2.331670e+01  17.0833  25.21  ...         clear sky  1.767846e+09  1.767894e+09  1.767852e+09
+27         Gibeon  3.797240e+01 -76.6197   3.34  ...         clear sky  1.767875e+09  1.767910e+09  1.767852e+09
+28   Keetmanshoop -2.658330e+01  18.1333  25.42  ...         clear sky  1.767845e+09  1.767894e+09  1.767852e+09
+29       Lüderitz -2.664810e+01  15.1594  20.76  ...         clear sky  1.767846e+09  1.767895e+09  1.767852e+09
+30     Oranjemund -2.855000e+01  16.4333  18.83  ...         clear sky  1.767845e+09  1.767895e+09  1.767852e+09
+31      Karasburg -2.801670e+01  18.7500  22.98  ...         clear sky  1.767845e+09  1.767894e+09  1.767852e+09
+32        Gobabis -2.245000e+01  18.9667  26.00  ...         clear sky  1.767845e+09  1.767894e+09  1.767852e+09
+33   Leonardville  3.936440e+01 -96.8589   5.32  ...   overcast clouds  1.767880e+09  1.767914e+09  1.767852e+09
+34        Witvlei -2.240000e+01  18.4833  25.46  ...         clear sky  1.767845e+09  1.767894e+09  1.767852e+09
+35            715  1.767834e+09      NaN    NaN  ...               NaN           NaN           NaN           NaN
+36           0537           NaN      NaN    NaN  ...               NaN           NaN           NaN           NaN
+37            939           NaN      NaN    NaN  ...               NaN           NaN           NaN           NaN
+
+[38 rows x 15 columns],              city           lat           lon   temp  ...           weather       sunrise        sunset     timestamp
+0        Windhoek -2.255940e+01  1.708320e+01  24.27  ...         clear sky  1.767846e+09  1.767894e+09  1.767856e+09
+1      Swakopmund -2.268330e+01  1.453330e+01  20.55  ...  scattered clouds  1.767846e+09  1.767895e+09  1.767856e+09
+2      Walvis Bay -2.295750e+01  1.450530e+01  19.53  ...   overcast clouds  1.767846e+09  1.767895e+09  1.767856e+09
+3         Arandis -2.241670e+01  1.496670e+01  22.19  ...     broken clouds  1.767846e+09  1.767895e+09  1.767856e+09
+4          Usakos -2.200000e+01  1.560000e+01  26.45  ...     broken clouds  1.767846e+09  1.767894e+09  1.767856e+09
+5         Omaruru -2.143330e+01  1.593330e+01  26.27  ...     broken clouds  1.767846e+09  1.767894e+09  1.767856e+09
+6     Henties Bay -2.211600e+01  1.428450e+01  19.73  ...         clear sky  1.767846e+09  1.767895e+09  1.767856e+09
+7        Oshakati -1.778330e+01  1.568330e+01  25.81  ...        few clouds  1.767847e+09  1.767894e+09  1.767856e+09
+8       Ongwediva -1.778330e+01  1.576670e+01  25.82  ...        few clouds  1.767847e+09  1.767894e+09  1.767856e+09
+9        Ompundja -1.791150e+01  1.570140e+01  25.72  ...  scattered clouds  1.767847e+09  1.767894e+09  1.767856e+09
+10        Eenhana -1.746670e+01  1.633330e+01  27.37  ...     broken clouds  1.767846e+09  1.767894e+09  1.767856e+09
+11   Helao Nafidi -1.742470e+01  1.589250e+01  26.57  ...        few clouds  1.767847e+09  1.767894e+09  1.767856e+09
+12         Tsandi -1.774630e+01  1.488660e+01  26.14  ...         clear sky  1.767847e+09  1.767894e+09  1.767856e+09
+13         Okahao -1.788500e+01  1.506670e+01  25.74  ...         clear sky  1.767847e+09  1.767894e+09  1.767856e+09
+14         Tsumeb -1.923330e+01  1.771670e+01  28.93  ...         clear sky  1.767846e+09  1.767894e+09  1.767856e+09
+15         Oniipa -1.791410e+01  1.604240e+01  25.25  ...     broken clouds  1.767846e+09  1.767894e+09  1.767856e+09
+16    Otjiwarongo -2.046370e+01  1.664770e+01  27.57  ...         clear sky  1.767846e+09  1.767894e+09  1.767856e+09
+17   Grootfontein -1.956670e+01  1.811670e+01  22.76  ...        few clouds  1.767846e+09  1.767893e+09  1.767856e+09
+18      Okakarara -2.058330e+01  1.743330e+01  26.96  ...        few clouds  1.767846e+09  1.767894e+09  1.767856e+09
+19          Opuwo -1.806070e+01  1.384000e+01  25.03  ...        few clouds  1.767847e+09  1.767894e+09  1.767856e+09
+20       Khorixas -2.036670e+01  1.496670e+01  23.75  ...  scattered clouds  1.767846e+09  1.767894e+09  1.767856e+09
+21  Katima Mulilo -1.750000e+01  2.426670e+01  25.22  ...   overcast clouds  1.767845e+09  1.767892e+09  1.767856e+09
+22        Kongola  9.066500e+00 -1.019590e+01  19.60  ...   overcast clouds  1.767856e+09  1.767897e+09  1.767856e+09
+23          Rundu -1.793330e+01  1.976670e+01  27.90  ...  scattered clouds  1.767846e+09  1.767893e+09  1.767856e+09
+24    Otjiwarongo -2.046370e+01  1.664770e+01  27.57  ...         clear sky  1.767846e+09  1.767894e+09  1.767856e+09
+25      Mariental -2.463330e+01  1.796670e+01  29.48  ...         clear sky  1.767845e+09  1.767894e+09  1.767856e+09
+26       Rehoboth -2.331670e+01  1.708330e+01  27.21  ...         clear sky  1.767846e+09  1.767894e+09  1.767856e+09
+27         Gibeon  3.797240e+01 -7.661970e+01   2.11  ...   overcast clouds  1.767875e+09  1.767910e+09  1.767856e+09
+28   Keetmanshoop -2.658330e+01  1.813330e+01  27.53  ...         clear sky  1.767845e+09  1.767894e+09  1.767856e+09
+29       Lüderitz -2.664810e+01  1.515940e+01  23.20  ...         clear sky  1.767846e+09  1.767895e+09  1.767856e+09
+30     Oranjemund -2.855000e+01  1.643330e+01  20.16  ...         clear sky  1.767845e+09  1.767895e+09  1.767856e+09
+31      Karasburg -2.801670e+01  1.875000e+01  24.95  ...         clear sky  1.767845e+09  1.767894e+09  1.767856e+09
+32        Gobabis -2.245000e+01  1.896670e+01  28.28  ...         clear sky  1.767845e+09  1.767894e+09  1.767856e+09
+33   Leonardville  3.936440e+01 -9.685890e+01   7.56  ...   overcast clouds  1.767880e+09  1.767914e+09  1.767856e+09
+34        Witvlei -2.240000e+01  1.848330e+01  27.50  ...         clear sky  1.767845e+09  1.767894e+09  1.767856e+09
+35            NaN  1.767894e+09  1.767852e+09    NaN  ...               NaN           NaN           NaN           NaN
+36            715  1.767834e+09           NaN    NaN  ...               NaN           NaN           NaN           NaN
+37           0537           NaN           NaN    NaN  ...               NaN           NaN           NaN           NaN
+38            939           NaN           NaN    NaN  ...               NaN           NaN           NaN           NaN
+
+[39 rows x 15 columns],              city           lat      lon   temp  ...           weather       sunrise        sunset     timestamp
+0        Windhoek -2.255940e+01  17.0832  25.27  ...         clear sky  1.767846e+09  1.767894e+09  1.767859e+09
+1      Swakopmund -2.268330e+01  14.5333  20.55  ...  scattered clouds  1.767846e+09  1.767895e+09  1.767859e+09
+2      Walvis Bay -2.295750e+01  14.5053  20.53  ...     broken clouds  1.767846e+09  1.767895e+09  1.767859e+09
+3         Arandis -2.241670e+01  14.9667  23.92  ...     broken clouds  1.767846e+09  1.767895e+09  1.767859e+09
+4          Usakos -2.200000e+01  15.6000  28.65  ...  scattered clouds  1.767846e+09  1.767894e+09  1.767859e+09
+5         Omaruru -2.143330e+01  15.9333  28.83  ...  scattered clouds  1.767846e+09  1.767894e+09  1.767859e+09
+6     Henties Bay -2.211600e+01  14.2845  20.54  ...         clear sky  1.767846e+09  1.767895e+09  1.767859e+09
+7        Oshakati -1.778330e+01  15.6833  27.12  ...  scattered clouds  1.767847e+09  1.767894e+09  1.767859e+09
+8       Ongwediva -1.778330e+01  15.7667  26.99  ...  scattered clouds  1.767847e+09  1.767894e+09  1.767859e+09
+9        Ompundja -1.791150e+01  15.7014  27.08  ...  scattered clouds  1.767847e+09  1.767894e+09  1.767859e+09
+10        Eenhana -1.746670e+01  16.3333  29.84  ...  scattered clouds  1.767846e+09  1.767894e+09  1.767859e+09
+11   Helao Nafidi -1.742470e+01  15.8925  28.49  ...        few clouds  1.767847e+09  1.767894e+09  1.767859e+09
+12         Tsandi -1.774630e+01  14.8866  28.25  ...         clear sky  1.767847e+09  1.767894e+09  1.767859e+09
+13         Okahao -1.788500e+01  15.0667  27.74  ...         clear sky  1.767847e+09  1.767894e+09  1.767859e+09
+14         Tsumeb -1.923330e+01  17.7167  30.97  ...         clear sky  1.767846e+09  1.767894e+09  1.767859e+09
+15         Oniipa -1.791410e+01  16.0424  27.42  ...     broken clouds  1.767846e+09  1.767894e+09  1.767859e+09
+16    Otjiwarongo -2.046370e+01  16.6477  29.61  ...         clear sky  1.767846e+09  1.767894e+09  1.767859e+09
+17   Grootfontein -1.956670e+01  18.1167  24.76  ...        few clouds  1.767846e+09  1.767893e+09  1.767859e+09
+18      Okakarara -2.058330e+01  17.4333  29.26  ...         clear sky  1.767846e+09  1.767894e+09  1.767859e+09
+19          Opuwo -1.806070e+01  13.8400  27.36  ...        few clouds  1.767847e+09  1.767894e+09  1.767859e+09
+20       Khorixas -2.036670e+01  14.9667  25.56  ...  scattered clouds  1.767846e+09  1.767894e+09  1.767859e+09
+21  Katima Mulilo -1.750000e+01  24.2667  28.78  ...     broken clouds  1.767845e+09  1.767892e+09  1.767859e+09
+22        Kongola  9.066500e+00 -10.1959  20.91  ...   overcast clouds  1.767856e+09  1.767897e+09  1.767859e+09
+23          Rundu -1.793330e+01  19.7667  31.06  ...        few clouds  1.767846e+09  1.767893e+09  1.767859e+09
+24    Otjiwarongo -2.046370e+01  16.6477  29.61  ...         clear sky  1.767846e+09  1.767894e+09  1.767859e+09
+25      Mariental -2.463330e+01  17.9667  31.56  ...         clear sky  1.767845e+09  1.767894e+09  1.767859e+09
+26       Rehoboth -2.331670e+01  17.0833  28.84  ...  scattered clouds  1.767846e+09  1.767894e+09  1.767859e+09
+27         Gibeon  3.797240e+01 -76.6197   2.03  ...   overcast clouds  1.767875e+09  1.767910e+09  1.767859e+09
+28   Keetmanshoop -2.658330e+01  18.1333  29.47  ...         clear sky  1.767845e+09  1.767894e+09  1.767859e+09
+29       Lüderitz -2.664810e+01  15.1594  25.11  ...         clear sky  1.767846e+09  1.767895e+09  1.767859e+09
+30     Oranjemund -2.855000e+01  16.4333  21.29  ...         clear sky  1.767845e+09  1.767895e+09  1.767859e+09
+31      Karasburg -2.801670e+01  18.7500  27.26  ...         clear sky  1.767845e+09  1.767894e+09  1.767859e+09
+32        Gobabis -2.245000e+01  18.9667  29.64  ...         clear sky  1.767845e+09  1.767894e+09  1.767859e+09
+33   Leonardville  3.936440e+01 -96.8589   7.56  ...   overcast clouds  1.767880e+09  1.767914e+09  1.767859e+09
+34        Witvlei -2.240000e+01  18.4833  29.40  ...        few clouds  1.767845e+09  1.767894e+09  1.767859e+09
+35              5  1.767834e+09      NaN    NaN  ...               NaN           NaN           NaN           NaN
+36           0537           NaN      NaN    NaN  ...               NaN           NaN           NaN           NaN
+37            939           NaN      NaN    NaN  ...               NaN           NaN           NaN           NaN
+
+[38 rows x 15 columns],              city           lat      lon   temp  ...           weather       sunrise        sunset     timestamp
+0        Windhoek -2.255940e+01  17.0832  28.27  ...         clear sky  1.767846e+09  1.767894e+09  1.767863e+09
+1      Swakopmund -2.268330e+01  14.5333  22.21  ...  scattered clouds  1.767846e+09  1.767895e+09  1.767863e+09
+2      Walvis Bay -2.295750e+01  14.5053  22.08  ...  scattered clouds  1.767846e+09  1.767895e+09  1.767863e+09
+3         Arandis -2.241670e+01  14.9667  25.72  ...     broken clouds  1.767846e+09  1.767895e+09  1.767863e+09
+4          Usakos -2.200000e+01  15.6000  30.88  ...  scattered clouds  1.767846e+09  1.767894e+09  1.767863e+09
+5         Omaruru -2.143330e+01  15.9333  31.01  ...  scattered clouds  1.767846e+09  1.767894e+09  1.767863e+09
+6     Henties Bay -2.211600e+01  14.2845  21.26  ...         clear sky  1.767846e+09  1.767895e+09  1.767863e+09
+7        Oshakati -1.778330e+01  15.6833  28.71  ...  scattered clouds  1.767847e+09  1.767894e+09  1.767863e+09
+8       Ongwediva -1.778330e+01  15.7667  28.62  ...     broken clouds  1.767847e+09  1.767894e+09  1.767863e+09
+9        Ompundja -1.791150e+01  15.7014  29.10  ...     broken clouds  1.767847e+09  1.767894e+09  1.767863e+09
+10        Eenhana -1.746670e+01  16.3333  31.85  ...  scattered clouds  1.767846e+09  1.767894e+09  1.767863e+09
+11   Helao Nafidi -1.742470e+01  15.8925  30.32  ...        few clouds  1.767847e+09  1.767894e+09  1.767863e+09
+12         Tsandi -1.774630e+01  14.8866  30.27  ...         clear sky  1.767847e+09  1.767894e+09  1.767863e+09
+13         Okahao -1.788500e+01  15.0667  29.82  ...         clear sky  1.767847e+09  1.767894e+09  1.767863e+09
+14         Tsumeb -1.923330e+01  17.7167  32.33  ...         clear sky  1.767846e+09  1.767894e+09  1.767863e+09
+15         Oniipa -1.791410e+01  16.0424  30.05  ...     broken clouds  1.767846e+09  1.767894e+09  1.767863e+09
+16    Otjiwarongo -2.046370e+01  16.6477  31.21  ...         clear sky  1.767846e+09  1.767894e+09  1.767863e+09
+17   Grootfontein -1.956670e+01  18.1167  26.76  ...         clear sky  1.767846e+09  1.767893e+09  1.767863e+09
+18      Okakarara -2.058330e+01  17.4333  31.29  ...         clear sky  1.767846e+09  1.767894e+09  1.767863e+09
+19          Opuwo -1.806070e+01  13.8400  29.57  ...        few clouds  1.767847e+09  1.767894e+09  1.767863e+09
+20       Khorixas -2.036670e+01  14.9667  27.43  ...     broken clouds  1.767846e+09  1.767894e+09  1.767863e+09
+21  Katima Mulilo -1.750000e+01  24.2667  30.58  ...     broken clouds  1.767845e+09  1.767892e+09  1.767863e+09
+22        Kongola  9.066500e+00 -10.1959  23.35  ...   overcast clouds  1.767856e+09  1.767897e+09  1.767863e+09
+23          Rundu -1.793330e+01  19.7667  33.60  ...  scattered clouds  1.767846e+09  1.767893e+09  1.767863e+09
+24    Otjiwarongo -2.046370e+01  16.6477  31.21  ...         clear sky  1.767846e+09  1.767894e+09  1.767863e+09
+25      Mariental -2.463330e+01  17.9667  33.18  ...         clear sky  1.767845e+09  1.767894e+09  1.767863e+09
+26       Rehoboth -2.331670e+01  17.0833  30.46  ...        few clouds  1.767846e+09  1.767894e+09  1.767863e+09
+27         Gibeon  3.797240e+01 -76.6197   1.13  ...     broken clouds  1.767875e+09  1.767910e+09  1.767863e+09
+28   Keetmanshoop -2.658330e+01  18.1333  31.29  ...         clear sky  1.767845e+09  1.767894e+09  1.767863e+09
+29       Lüderitz -2.664810e+01  15.1594  24.66  ...         clear sky  1.767846e+09  1.767895e+09  1.767863e+09
+30     Oranjemund -2.855000e+01  16.4333  22.44  ...         clear sky  1.767845e+09  1.767895e+09  1.767863e+09
+31      Karasburg -2.801670e+01  18.7500  29.50  ...         clear sky  1.767845e+09  1.767894e+09  1.767863e+09
+32        Gobabis -2.245000e+01  18.9667  30.99  ...         clear sky  1.767845e+09  1.767894e+09  1.767863e+09
+33   Leonardville  3.936440e+01 -96.8589   7.61  ...   overcast clouds  1.767880e+09  1.767914e+09  1.767863e+09
+34        Witvlei -2.240000e+01  18.4833  30.86  ...        few clouds  1.767845e+09  1.767894e+09  1.767863e+09
+35         893715  1.767859e+09      NaN    NaN  ...               NaN           NaN           NaN           NaN
+36              5  1.767834e+09      NaN    NaN  ...               NaN           NaN           NaN           NaN
+37           0537           NaN      NaN    NaN  ...               NaN           NaN           NaN           NaN
+38            939           NaN      NaN    NaN  ...               NaN           NaN           NaN           NaN
+
+[39 rows x 15 columns],              city           lat      lon   temp  ...           weather       sunrise        sunset     timestamp
+0        Windhoek -2.255940e+01  17.0832  30.27  ...         clear sky  1.767846e+09  1.767894e+09  1.767867e+09
+1      Swakopmund -2.268330e+01  14.5333  20.56  ...  scattered clouds  1.767846e+09  1.767895e+09  1.767867e+09
+2      Walvis Bay -2.295750e+01  14.5053  24.53  ...        few clouds  1.767846e+09  1.767895e+09  1.767867e+09
+3         Arandis -2.241670e+01  14.9667  27.72  ...     broken clouds  1.767846e+09  1.767895e+09  1.767867e+09
+4          Usakos -2.200000e+01  15.6000  32.75  ...  scattered clouds  1.767846e+09  1.767894e+09  1.767867e+09
+5         Omaruru -2.143330e+01  15.9333  32.53  ...  scattered clouds  1.767846e+09  1.767894e+09  1.767866e+09
+6     Henties Bay -2.211600e+01  14.2845  21.87  ...        few clouds  1.767846e+09  1.767895e+09  1.767867e+09
+7        Oshakati -1.778330e+01  15.6833  31.11  ...  scattered clouds  1.767847e+09  1.767894e+09  1.767867e+09
+8       Ongwediva -1.778330e+01  15.7667  31.25  ...  scattered clouds  1.767847e+09  1.767894e+09  1.767867e+09
+9        Ompundja -1.791150e+01  15.7014  31.19  ...     broken clouds  1.767847e+09  1.767894e+09  1.767867e+09
+10        Eenhana -1.746670e+01  16.3333  33.67  ...  scattered clouds  1.767846e+09  1.767894e+09  1.767867e+09
+11   Helao Nafidi -1.742470e+01  15.8925  32.10  ...        few clouds  1.767847e+09  1.767894e+09  1.767867e+09
+12         Tsandi -1.774630e+01  14.8866  32.07  ...         clear sky  1.767847e+09  1.767894e+09  1.767867e+09
+13         Okahao -1.788500e+01  15.0667  31.64  ...         clear sky  1.767847e+09  1.767894e+09  1.767867e+09
+14         Tsumeb -1.923330e+01  17.7167  33.25  ...         clear sky  1.767846e+09  1.767894e+09  1.767867e+09
+15         Oniipa -1.791410e+01  16.0424  31.89  ...  scattered clouds  1.767846e+09  1.767894e+09  1.767867e+09
+16    Otjiwarongo -2.046370e+01  16.6477  32.40  ...         clear sky  1.767846e+09  1.767894e+09  1.767867e+09
+17   Grootfontein -1.956670e+01  18.1167  29.76  ...        few clouds  1.767846e+09  1.767893e+09  1.767867e+09
+18      Okakarara -2.058330e+01  17.4333  32.93  ...         clear sky  1.767846e+09  1.767894e+09  1.767867e+09
+19          Opuwo -1.806070e+01  13.8400  31.47  ...        few clouds  1.767847e+09  1.767894e+09  1.767867e+09
+20       Khorixas -2.036670e+01  14.9667  29.19  ...     broken clouds  1.767846e+09  1.767894e+09  1.767867e+09
+21  Katima Mulilo -1.750000e+01  24.2667  32.77  ...  scattered clouds  1.767845e+09  1.767892e+09  1.767867e+09
+22        Kongola  9.066500e+00 -10.1959  25.59  ...   overcast clouds  1.767856e+09  1.767897e+09  1.767867e+09
+23          Rundu -1.793330e+01  19.7667  35.02  ...  scattered clouds  1.767846e+09  1.767893e+09  1.767867e+09
+24    Otjiwarongo -2.046370e+01  16.6477  32.40  ...         clear sky  1.767846e+09  1.767894e+09  1.767867e+09
+25      Mariental -2.463330e+01  17.9667  34.36  ...         clear sky  1.767845e+09  1.767894e+09  1.767867e+09
+26       Rehoboth -2.331670e+01  17.0833  31.95  ...        few clouds  1.767846e+09  1.767894e+09  1.767867e+09
+27         Gibeon  3.797240e+01 -76.6197   2.64  ...     broken clouds  1.767875e+09  1.767910e+09  1.767867e+09
+28   Keetmanshoop -2.658330e+01  18.1333  32.78  ...         clear sky  1.767845e+09  1.767894e+09  1.767867e+09
+29       Lüderitz -2.664810e+01  15.1594  24.09  ...         clear sky  1.767846e+09  1.767895e+09  1.767867e+09
+30     Oranjemund -2.855000e+01  16.4333  22.73  ...         clear sky  1.767845e+09  1.767895e+09  1.767867e+09
+31      Karasburg -2.801670e+01  18.7500  31.34  ...         clear sky  1.767845e+09  1.767894e+09  1.767867e+09
+32        Gobabis -2.245000e+01  18.9667  32.16  ...         clear sky  1.767845e+09  1.767894e+09  1.767867e+09
+33   Leonardville  3.936440e+01 -96.8589   6.98  ...   overcast clouds  1.767880e+09  1.767914e+09  1.767867e+09
+34        Witvlei -2.240000e+01  18.4833  32.12  ...        few clouds  1.767845e+09  1.767894e+09  1.767867e+09
+35       67859335           NaN      NaN    NaN  ...               NaN           NaN           NaN           NaN
+36              5  1.767834e+09      NaN    NaN  ...               NaN           NaN           NaN           NaN
+37           0537           NaN      NaN    NaN  ...               NaN           NaN           NaN           NaN
+38            939           NaN      NaN    NaN  ...               NaN           NaN           NaN           NaN
+
+[39 rows x 15 columns],              city           lat      lon   temp  ...           weather       sunrise        sunset     timestamp
+0        Windhoek -2.255940e+01  17.0832  31.27  ...        few clouds  1.767846e+09  1.767894e+09  1.767870e+09
+1      Swakopmund -2.268330e+01  14.5333  20.78  ...  scattered clouds  1.767846e+09  1.767895e+09  1.767870e+09
+2      Walvis Bay -2.295750e+01  14.5053  25.53  ...         clear sky  1.767846e+09  1.767895e+09  1.767870e+09
+3         Arandis -2.241670e+01  14.9667  29.50  ...     broken clouds  1.767846e+09  1.767895e+09  1.767870e+09
+4          Usakos -2.200000e+01  15.6000  34.10  ...  scattered clouds  1.767846e+09  1.767894e+09  1.767870e+09
+5         Omaruru -2.143330e+01  15.9333  33.78  ...  scattered clouds  1.767846e+09  1.767894e+09  1.767870e+09
+6     Henties Bay -2.211600e+01  14.2845  22.25  ...        few clouds  1.767846e+09  1.767895e+09  1.767870e+09
+7        Oshakati -1.778330e+01  15.6833  32.71  ...  scattered clouds  1.767847e+09  1.767894e+09  1.767870e+09
+8       Ongwediva -1.778330e+01  15.7667  32.84  ...  scattered clouds  1.767847e+09  1.767894e+09  1.767870e+09
+9        Ompundja -1.791150e+01  15.7014  32.66  ...  scattered clouds  1.767847e+09  1.767894e+09  1.767870e+09
+10        Eenhana -1.746670e+01  16.3333  34.90  ...  scattered clouds  1.767846e+09  1.767894e+09  1.767870e+09
+11   Helao Nafidi -1.742470e+01  15.8925  33.60  ...        few clouds  1.767847e+09  1.767894e+09  1.767870e+09
+12         Tsandi -1.774630e+01  14.8866  33.35  ...         clear sky  1.767847e+09  1.767894e+09  1.767870e+09
+13         Okahao -1.788500e+01  15.0667  33.03  ...        few clouds  1.767847e+09  1.767894e+09  1.767870e+09
+14         Tsumeb -1.923330e+01  17.7167  34.03  ...         clear sky  1.767846e+09  1.767894e+09  1.767870e+09
+15         Oniipa -1.791410e+01  16.0424  33.26  ...  scattered clouds  1.767846e+09  1.767894e+09  1.767870e+09
+16    Otjiwarongo -2.046370e+01  16.6477  33.33  ...         clear sky  1.767846e+09  1.767894e+09  1.767870e+09
+17   Grootfontein -1.956670e+01  18.1167  30.76  ...        few clouds  1.767846e+09  1.767893e+09  1.767870e+09
+18      Okakarara -2.058330e+01  17.4333  34.17  ...         clear sky  1.767846e+09  1.767894e+09  1.767870e+09
+19          Opuwo -1.806070e+01  13.8400  33.01  ...        few clouds  1.767847e+09  1.767894e+09  1.767870e+09
+20       Khorixas -2.036670e+01  14.9667  30.87  ...     broken clouds  1.767846e+09  1.767894e+09  1.767870e+09
+21  Katima Mulilo -1.750000e+01  24.2667  34.20  ...  scattered clouds  1.767845e+09  1.767892e+09  1.767870e+09
+22        Kongola  9.066500e+00 -10.1959  27.65  ...   overcast clouds  1.767856e+09  1.767897e+09  1.767870e+09
+23          Rundu -1.793330e+01  19.7667  36.39  ...  scattered clouds  1.767846e+09  1.767893e+09  1.767870e+09
+24    Otjiwarongo -2.046370e+01  16.6477  33.33  ...         clear sky  1.767846e+09  1.767894e+09  1.767870e+09
+25      Mariental -2.463330e+01  17.9667  35.12  ...         clear sky  1.767845e+09  1.767894e+09  1.767870e+09
+26       Rehoboth -2.331670e+01  17.0833  33.01  ...        few clouds  1.767846e+09  1.767894e+09  1.767870e+09
+27         Gibeon  3.797240e+01 -76.6197   0.03  ...  scattered clouds  1.767875e+09  1.767910e+09  1.767870e+09
+28   Keetmanshoop -2.658330e+01  18.1333  34.21  ...         clear sky  1.767845e+09  1.767894e+09  1.767870e+09
+29       Lüderitz -2.664810e+01  15.1594  24.92  ...         clear sky  1.767846e+09  1.767895e+09  1.767870e+09
+30     Oranjemund -2.855000e+01  16.4333  22.79  ...         clear sky  1.767845e+09  1.767895e+09  1.767870e+09
+31      Karasburg -2.801670e+01  18.7500  33.05  ...         clear sky  1.767845e+09  1.767894e+09  1.767870e+09
+32        Gobabis -2.245000e+01  18.9667  33.16  ...        few clouds  1.767845e+09  1.767894e+09  1.767870e+09
+33   Leonardville  3.936440e+01 -96.8589   7.17  ...   overcast clouds  1.767880e+09  1.767914e+09  1.767870e+09
+34        Witvlei -2.240000e+01  18.4833  33.02  ...        few clouds  1.767845e+09  1.767894e+09  1.767870e+09
+35           9335           NaN      NaN    NaN  ...               NaN           NaN           NaN           NaN
+36              5  1.767834e+09      NaN    NaN  ...               NaN           NaN           NaN           NaN
+37           0537           NaN      NaN    NaN  ...               NaN           NaN           NaN           NaN
+38            939           NaN      NaN    NaN  ...               NaN           NaN           NaN           NaN
+
+[39 rows x 15 columns],              city      lat      lon   temp  ...           weather       sunrise        sunset     timestamp
+0        Windhoek -22.5594  17.0832  32.27  ...         clear sky  1.767846e+09  1.767894e+09  1.767874e+09
+1      Swakopmund -22.6833  14.5333  23.88  ...        few clouds  1.767846e+09  1.767895e+09  1.767874e+09
+2      Walvis Bay -22.9575  14.5053  27.53  ...         clear sky  1.767846e+09  1.767895e+09  1.767874e+09
+3         Arandis -22.4167  14.9667  30.56  ...  scattered clouds  1.767846e+09  1.767895e+09  1.767874e+09
+4          Usakos -22.0000  15.6000  35.14  ...        few clouds  1.767846e+09  1.767894e+09  1.767874e+09
+5         Omaruru -21.4333  15.9333  34.59  ...  scattered clouds  1.767846e+09  1.767894e+09  1.767874e+09
+6     Henties Bay -22.1160  14.2845  22.14  ...        few clouds  1.767846e+09  1.767895e+09  1.767874e+09
+7        Oshakati -17.7833  15.6833  33.49  ...     broken clouds  1.767847e+09  1.767894e+09  1.767874e+09
+8       Ongwediva -17.7833  15.7667  33.62  ...     broken clouds  1.767847e+09  1.767894e+09  1.767874e+09
+9        Ompundja -17.9115  15.7014  33.63  ...     broken clouds  1.767847e+09  1.767894e+09  1.767874e+09
+10        Eenhana -17.4667  16.3333  35.66  ...  scattered clouds  1.767846e+09  1.767894e+09  1.767874e+09
+11   Helao Nafidi -17.4247  15.8925  34.19  ...  scattered clouds  1.767847e+09  1.767894e+09  1.767874e+09
+12         Tsandi -17.7463  14.8866  34.41  ...  scattered clouds  1.767847e+09  1.767894e+09  1.767874e+09
+13         Okahao -17.8850  15.0667  34.21  ...  scattered clouds  1.767847e+09  1.767894e+09  1.767874e+09
+14         Tsumeb -19.2333  17.7167  34.57  ...  scattered clouds  1.767846e+09  1.767894e+09  1.767874e+09
+15         Oniipa -17.9141  16.0424  34.07  ...  scattered clouds  1.767846e+09  1.767894e+09  1.767874e+09
+16    Otjiwarongo -20.4637  16.6477  33.61  ...        few clouds  1.767846e+09  1.767894e+09  1.767874e+09
+17   Grootfontein -19.5667  18.1167  31.76  ...  scattered clouds  1.767846e+09  1.767893e+09  1.767874e+09
+18      Okakarara -20.5833  17.4333  34.97  ...        few clouds  1.767846e+09  1.767894e+09  1.767874e+09
+19          Opuwo -18.0607  13.8400  34.69  ...        few clouds  1.767847e+09  1.767894e+09  1.767874e+09
+20       Khorixas -20.3667  14.9667  34.06  ...  scattered clouds  1.767846e+09  1.767894e+09  1.767874e+09
+21  Katima Mulilo -17.5000  24.2667  32.16  ...     broken clouds  1.767845e+09  1.767892e+09  1.767874e+09
+22        Kongola   9.0665 -10.1959  29.40  ...   overcast clouds  1.767856e+09  1.767897e+09  1.767874e+09
+23          Rundu -17.9333  19.7667  34.32  ...  scattered clouds  1.767846e+09  1.767893e+09  1.767874e+09
+24    Otjiwarongo -20.4637  16.6477  33.61  ...        few clouds  1.767846e+09  1.767894e+09  1.767874e+09
+25      Mariental -24.6333  17.9667  35.50  ...         clear sky  1.767845e+09  1.767894e+09  1.767874e+09
+26       Rehoboth -23.3167  17.0833  33.34  ...        few clouds  1.767846e+09  1.767894e+09  1.767874e+09
+27         Gibeon  37.9724 -76.6197   0.03  ...  scattered clouds  1.767875e+09  1.767910e+09  1.767874e+09
+28   Keetmanshoop -26.5833  18.1333  35.36  ...         clear sky  1.767845e+09  1.767894e+09  1.767874e+09
+29       Lüderitz -26.6481  15.1594  25.36  ...         clear sky  1.767846e+09  1.767895e+09  1.767874e+09
+30     Oranjemund -28.5500  16.4333  23.01  ...         clear sky  1.767845e+09  1.767895e+09  1.767874e+09
+31      Karasburg -28.0167  18.7500  34.11  ...         clear sky  1.767845e+09  1.767894e+09  1.767874e+09
+32        Gobabis -22.4500  18.9667  34.21  ...        few clouds  1.767845e+09  1.767894e+09  1.767874e+09
+33   Leonardville  39.3644 -96.8589   6.50  ...   overcast clouds  1.767880e+09  1.767914e+09  1.767874e+09
+34        Witvlei -22.4000  18.4833  33.67  ...        few clouds  1.767845e+09  1.767894e+09  1.767874e+09
+35           0537      NaN      NaN    NaN  ...               NaN           NaN           NaN           NaN
+36            939      NaN      NaN    NaN  ...               NaN           NaN           NaN           NaN
+
+[37 rows x 15 columns],              city      lat      lon   temp  feels_like  ...  clouds           weather     sunrise      sunset   timestamp
+0        Windhoek -22.5594  17.0832  32.27       30.09  ...      40  scattered clouds  1767845697  1767894070  1767877039
+1      Swakopmund -22.6833  14.5333  23.32       23.59  ...      41  scattered clouds  1767846295  1767894696  1767877333
+2      Walvis Bay -22.9575  14.5053  27.53       27.72  ...       0         clear sky  1767846269  1767894736  1767877333
+3         Arandis -22.4167  14.9667  31.46       30.22  ...      12        few clouds  1767846222  1767894561  1767877333
+4          Usakos -22.0000  15.6000  35.92       33.71  ...       8         clear sky  1767846120  1767894359  1767877333
+5         Omaruru -21.4333  15.9333  35.41       33.07  ...      34  scattered clouds  1767846106  1767894213  1767877333
+6     Henties Bay -22.1160  14.2845  22.02       22.16  ...      23        few clouds  1767846422  1767894689  1767877333
+7        Oshakati -17.7833  15.6833  34.38       32.27  ...      32  scattered clouds  1767846581  1767893858  1767877242
+8       Ongwediva -17.7833  15.7667  34.44       32.33  ...      12        few clouds  1767846561  1767893838  1767877314
+9        Ompundja -17.9115  15.7014  34.46       32.35  ...      25  scattered clouds  1767846563  1767893868  1767877333
+10        Eenhana -17.4667  16.3333  36.45       34.42  ...      11        few clouds  1767846460  1767893667  1767877333
+11   Helao Nafidi -17.4247  15.8925  34.92       32.85  ...      12        few clouds  1767846570  1767893768  1767877333
+12         Tsandi -17.7463  14.8866  35.08       32.82  ...      78     broken clouds  1767846776  1767894045  1767877333
+13         Okahao -17.8850  15.0667  34.97       32.70  ...      86   overcast clouds  1767846718  1767894017  1767877333
+14         Tsumeb -19.2333  17.7167  33.43       31.75  ...      98   overcast clouds  1767845931  1767893532  1767877334
+15         Oniipa -17.9141  16.0424  34.66       32.57  ...      43  scattered clouds  1767846480  1767893786  1767877334
+16    Otjiwarongo -20.4637  16.6477  33.03       30.97  ...     100   overcast clouds  1767846047  1767893929  1767877334
+17   Grootfontein -19.5667  18.1167  30.76       29.77  ...      50  scattered clouds  1767845797  1767893474  1767877334
+18      Okakarara -20.5833  17.4333  35.14       32.88  ...      91   overcast clouds  1767845845  1767893754  1767877334
+19          Opuwo -18.0607  13.8400  35.49       33.25  ...      19        few clouds  1767846993  1767894331  1767877334
+20       Khorixas -20.3667  14.9667  34.95       32.40  ...       9         clear sky  1767846462  1767894321  1767877334
+21  Katima Mulilo -17.5000  24.2667  33.79       33.54  ...      97   overcast clouds  1767844552  1767891766  1767877334
+22        Kongola   9.0665 -10.1959  30.77       29.07  ...      62     broken clouds  1767855512  1767897353  1767877334
+23          Rundu -17.9333  19.7667  34.84       33.25  ...      81     broken clouds  1767845584  1767892895  1767877334
+24    Otjiwarongo -20.4637  16.6477  33.03       30.97  ...     100   overcast clouds  1767846047  1767893929  1767877334
+25      Mariental -24.6333  17.9667  36.05       33.39  ...       2         clear sky  1767845234  1767894109  1767877334
+26       Rehoboth -23.3167  17.0833  33.97       31.53  ...      12        few clouds  1767845607  1767894160  1767877334
+27         Gibeon  37.9724 -76.6197  -0.97       -2.97  ...       0         clear sky  1767874954  1767909803  1767877334
+28   Keetmanshoop -26.5833  18.1333  36.34       33.66  ...       0         clear sky  1767844949  1767894314  1767877334
+29       Lüderitz -26.6481  15.1594  25.69       25.54  ...       0         clear sky  1767845655  1767895036  1767877290
+30     Oranjemund -28.5500  16.4333  22.72       22.48  ...       0         clear sky  1767845100  1767894979  1767877334
+31      Karasburg -28.0167  18.7500  35.08       32.37  ...       0         clear sky  1767844614  1767894352  1767877335
+32        Gobabis -22.4500  18.9667  33.91       31.64  ...      89   overcast clouds  1767845258  1767893605  1767877335
+33   Leonardville  39.3644 -96.8589   6.63        5.89  ...     100        light rain  1767880041  1767914434  1767877335
+34        Witvlei -22.4000  18.4833  34.04       31.76  ...      85   overcast clouds  1767845380  1767893715  1767877335
+
+[35 rows x 15 columns],              city      lat      lon   temp  feels_like  ...  clouds           weather     sunrise      sunset   timestamp
+0        Windhoek -22.5594  17.0832  32.27       30.13  ...      40  scattered clouds  1767845697  1767894070  1767880837
+1      Swakopmund -22.6833  14.5333  20.65       20.81  ...      34  scattered clouds  1767846295  1767894696  1767880932
+2      Walvis Bay -22.9575  14.5053  27.53       27.72  ...       0         clear sky  1767846269  1767894736  1767880932
+3         Arandis -22.4167  14.9667  30.78       29.69  ...      10         clear sky  1767846222  1767894561  1767880932
+4          Usakos -22.0000  15.6000  36.17       34.11  ...       9         clear sky  1767846120  1767894359  1767880932
+5         Omaruru -21.4333  15.9333  36.03       33.71  ...      62     broken clouds  1767846106  1767894213  1767880932
+6     Henties Bay -22.1160  14.2845  21.87       21.99  ...      20        few clouds  1767846422  1767894689  1767880932
+7        Oshakati -17.7833  15.6833  34.80       32.72  ...      53     broken clouds  1767846581  1767893858  1767880932
+8       Ongwediva -17.7833  15.7667  34.83       32.75  ...      41  scattered clouds  1767846561  1767893838  1767880932
+9        Ompundja -17.9115  15.7014  34.85       32.67  ...      48  scattered clouds  1767846563  1767893868  1767880932
+10        Eenhana -17.4667  16.3333  36.48       34.46  ...      14        few clouds  1767846460  1767893667  1767880932
+11   Helao Nafidi -17.4247  15.8925  35.20       33.15  ...      12        few clouds  1767846570  1767893768  1767880932
+12         Tsandi -17.7463  14.8866  35.47       33.23  ...      66     broken clouds  1767846776  1767894045  1767880932
+13         Okahao -17.8850  15.0667  35.31       33.06  ...      91   overcast clouds  1767846718  1767894017  1767880932
+14         Tsumeb -19.2333  17.7167  33.65       31.88  ...      85   overcast clouds  1767845931  1767893532  1767880933
+15         Oniipa -17.9141  16.0424  34.94       32.87  ...      58     broken clouds  1767846480  1767893786  1767880933
+16    Otjiwarongo -20.4637  16.6477  33.03       30.90  ...      98   overcast clouds  1767846047  1767893929  1767880933
+17   Grootfontein -19.5667  18.1167  32.76       32.14  ...      37  scattered clouds  1767845797  1767893474  1767880933
+18      Okakarara -20.5833  17.4333  35.38       33.13  ...      93   overcast clouds  1767845845  1767893754  1767880933
+19          Opuwo -18.0607  13.8400  35.26       33.01  ...      34  scattered clouds  1767846993  1767894331  1767880933
+20       Khorixas -20.3667  14.9667  35.36       32.86  ...      15        few clouds  1767846462  1767894321  1767880933
+21  Katima Mulilo -17.5000  24.2667  32.18       32.36  ...      99   overcast clouds  1767844552  1767891766  1767880933
+22        Kongola   9.0665 -10.1959  31.69       29.86  ...      59     broken clouds  1767855512  1767897353  1767880933
+23          Rundu -17.9333  19.7667  33.78       32.26  ...      87   overcast clouds  1767845584  1767892895  1767880933
+24    Otjiwarongo -20.4637  16.6477  33.03       30.90  ...      98   overcast clouds  1767846047  1767893929  1767880933
+25      Mariental -24.6333  17.9667  36.51       33.75  ...       1         clear sky  1767845234  1767894109  1767880933
+26       Rehoboth -23.3167  17.0833  34.46       31.95  ...      14        few clouds  1767845607  1767894160  1767880933
+27         Gibeon  37.9724 -76.6197   4.03        4.03  ...       0         clear sky  1767874954  1767909803  1767880933
+28   Keetmanshoop -26.5833  18.1333  36.64       33.88  ...       0         clear sky  1767844949  1767894314  1767880933
+29       Lüderitz -26.6481  15.1594  26.06       26.06  ...       0         clear sky  1767845655  1767895036  1767880934
+30     Oranjemund -28.5500  16.4333  22.53       22.33  ...       0         clear sky  1767845100  1767894979  1767880934
+31      Karasburg -28.0167  18.7500  35.36       32.60  ...       0         clear sky  1767844614  1767894352  1767880934
+32        Gobabis -22.4500  18.9667  33.76       31.43  ...      87   overcast clouds  1767845258  1767893605  1767880934
+33   Leonardville  39.3644 -96.8589   6.49        5.84  ...     100   overcast clouds  1767880041  1767914434  1767880934
+34        Witvlei -22.4000  18.4833  34.03       31.69  ...      88   overcast clouds  1767845380  1767893715  1767880934
+
+[35 rows x 15 columns],              city      lat      lon   temp  feels_like  ...  clouds           weather     sunrise      sunset   timestamp
+0        Windhoek -22.5594  17.0832  31.35       29.54  ...      91   overcast clouds  1767845697  1767894070  1767884437
+1      Swakopmund -22.6833  14.5333  23.32       23.61  ...      30  scattered clouds  1767846295  1767894696  1767884534
+2      Walvis Bay -22.9575  14.5053  22.52       22.63  ...      24        few clouds  1767846269  1767894736  1767884402
+3         Arandis -22.4167  14.9667  28.68       28.21  ...       9         clear sky  1767846222  1767894561  1767884534
+4          Usakos -22.0000  15.6000  35.10       33.16  ...      15        few clouds  1767846120  1767894359  1767884534
+5         Omaruru -21.4333  15.9333  36.16       33.75  ...      55     broken clouds  1767846106  1767894213  1767884534
+6     Henties Bay -22.1160  14.2845  21.70       21.83  ...      21        few clouds  1767846422  1767894689  1767884535
+7        Oshakati -17.7833  15.6833  34.86       32.68  ...      49  scattered clouds  1767846581  1767893858  1767884535
+8       Ongwediva -17.7833  15.7667  34.86       32.78  ...      37  scattered clouds  1767846561  1767893838  1767884535
+9        Ompundja -17.9115  15.7014  34.96       32.79  ...      52     broken clouds  1767846563  1767893868  1767884535
+10        Eenhana -17.4667  16.3333  35.75       33.76  ...      31  scattered clouds  1767846460  1767893667  1767884535
+11   Helao Nafidi -17.4247  15.8925  35.02       32.95  ...      12        few clouds  1767846570  1767893768  1767884535
+12         Tsandi -17.7463  14.8866  35.37       33.12  ...      66     broken clouds  1767846776  1767894045  1767884535
+13         Okahao -17.8850  15.0667  35.27       33.02  ...      88   overcast clouds  1767846718  1767894017  1767884535
+14         Tsumeb -19.2333  17.7167  34.35       32.44  ...      62     broken clouds  1767845931  1767893532  1767884535
+15         Oniipa -17.9141  16.0424  35.04       32.98  ...      50  scattered clouds  1767846480  1767893786  1767884535
+16    Otjiwarongo -20.4637  16.6477  33.04       30.98  ...      90   overcast clouds  1767846047  1767893929  1767884535
+17   Grootfontein -19.5667  18.1167  31.76       31.17  ...      42  scattered clouds  1767845797  1767893474  1767884535
+18      Okakarara -20.5833  17.4333  34.34       32.23  ...      95   overcast clouds  1767845845  1767893754  1767884535
+19          Opuwo -18.0607  13.8400  34.07       31.95  ...      55     broken clouds  1767846993  1767894331  1767884535
+20       Khorixas -20.3667  14.9667  35.21       32.71  ...      25  scattered clouds  1767846462  1767894321  1767884535
+21  Katima Mulilo -17.5000  24.2667  29.85       30.26  ...      99   overcast clouds  1767844552  1767891766  1767884535
+22        Kongola   9.0665 -10.1959  31.82       29.99  ...      72     broken clouds  1767855512  1767897353  1767884536
+23          Rundu -17.9333  19.7667  32.78       31.35  ...      90   overcast clouds  1767845584  1767892895  1767884536
+24    Otjiwarongo -20.4637  16.6477  33.04       30.98  ...      90   overcast clouds  1767846047  1767893929  1767884535
+25      Mariental -24.6333  17.9667  36.69       33.92  ...       1         clear sky  1767845234  1767894109  1767884536
+26       Rehoboth -23.3167  17.0833  34.66       32.13  ...      21        few clouds  1767845607  1767894160  1767884444
+27         Gibeon  37.9724 -76.6197   6.98        6.12  ...       0         clear sky  1767874954  1767909803  1767884536
+28   Keetmanshoop -26.5833  18.1333  36.37       33.62  ...       0         clear sky  1767844949  1767894314  1767884536
+29       Lüderitz -26.6481  15.1594  25.91       25.76  ...       0         clear sky  1767845655  1767895036  1767884536
+30     Oranjemund -28.5500  16.4333  22.10       21.93  ...       0         clear sky  1767845100  1767894979  1767884536
+31      Karasburg -28.0167  18.7500  34.69       32.05  ...       0         clear sky  1767844614  1767894352  1767884536
+32        Gobabis -22.4500  18.9667  32.97       30.69  ...      89   overcast clouds  1767845258  1767893605  1767884536
+33   Leonardville  39.3644 -96.8589   6.49        4.25  ...     100     moderate rain  1767880041  1767914434  1767884536
+34        Witvlei -22.4000  18.4833  33.28       30.98  ...      86   overcast clouds  1767845380  1767893715  1767884536
+
+[35 rows x 15 columns]]
+[2026-01-08 17:31:28,702] 81 root - INFO - daily dataset compiled
+[2026-01-08 17:31:28,718] 84 root - INFO - Data stored in string buffer
+[2026-01-08 17:31:29,341] 68 root - INFO - Uploaded raw/dailyDatasets/dailyWeatherData_08_01_2026.csv to open-weather-data-storage
+[2026-01-08 17:31:29,715] 87 root - INFO -  Weather data saved to datalake
+[2026-01-08 17:31:29,715] 102 root - INFO - File uploaded to datalake

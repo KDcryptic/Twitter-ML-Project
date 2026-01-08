@@ -1,0 +1,70 @@
+[2026-01-08 16:19:02,479] 1392 botocore.credentials - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2026-01-08 16:19:07,683] 50 root - INFO - ['raw/hourlyDatasets/weatherData_08_01_2026_01_02_19.csv']
+[2026-01-08 16:19:07,683] 50 root - INFO - ['raw/hourlyDatasets/weatherData_08_01_2026_01_02_19.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_02_02_17.csv']
+[2026-01-08 16:19:07,683] 50 root - INFO - ['raw/hourlyDatasets/weatherData_08_01_2026_01_02_19.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_02_02_17.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_03_02_25.csv']
+[2026-01-08 16:19:07,684] 50 root - INFO - ['raw/hourlyDatasets/weatherData_08_01_2026_01_02_19.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_02_02_17.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_03_02_25.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_04_02_15.csv']
+[2026-01-08 16:19:07,684] 50 root - INFO - ['raw/hourlyDatasets/weatherData_08_01_2026_01_02_19.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_02_02_17.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_03_02_25.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_04_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_05_02_16.csv']
+[2026-01-08 16:19:07,684] 50 root - INFO - ['raw/hourlyDatasets/weatherData_08_01_2026_01_02_19.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_02_02_17.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_03_02_25.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_04_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_05_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_06_02_15.csv']
+[2026-01-08 16:19:07,684] 50 root - INFO - ['raw/hourlyDatasets/weatherData_08_01_2026_01_02_19.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_02_02_17.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_03_02_25.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_04_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_05_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_06_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_07_02_16.csv']
+[2026-01-08 16:19:07,684] 50 root - INFO - ['raw/hourlyDatasets/weatherData_08_01_2026_01_02_19.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_02_02_17.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_03_02_25.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_04_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_05_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_06_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_07_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_08_02_17.csv']
+[2026-01-08 16:19:07,684] 50 root - INFO - ['raw/hourlyDatasets/weatherData_08_01_2026_01_02_19.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_02_02_17.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_03_02_25.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_04_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_05_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_06_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_07_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_08_02_17.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_09_02_16.csv']
+[2026-01-08 16:19:07,684] 50 root - INFO - ['raw/hourlyDatasets/weatherData_08_01_2026_01_02_19.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_02_02_17.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_03_02_25.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_04_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_05_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_06_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_07_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_08_02_17.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_09_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_10_02_15.csv']
+[2026-01-08 16:19:07,684] 50 root - INFO - ['raw/hourlyDatasets/weatherData_08_01_2026_01_02_19.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_02_02_17.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_03_02_25.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_04_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_05_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_06_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_07_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_08_02_17.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_09_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_10_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_11_02_15.csv']
+[2026-01-08 16:19:07,684] 50 root - INFO - ['raw/hourlyDatasets/weatherData_08_01_2026_01_02_19.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_02_02_17.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_03_02_25.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_04_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_05_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_06_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_07_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_08_02_17.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_09_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_10_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_11_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_12_02_18.csv']
+[2026-01-08 16:19:07,684] 50 root - INFO - ['raw/hourlyDatasets/weatherData_08_01_2026_01_02_19.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_02_02_17.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_03_02_25.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_04_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_05_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_06_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_07_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_08_02_17.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_09_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_10_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_11_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_12_02_18.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_13_02_31.csv']
+[2026-01-08 16:19:07,684] 50 root - INFO - ['raw/hourlyDatasets/weatherData_08_01_2026_01_02_19.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_02_02_17.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_03_02_25.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_04_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_05_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_06_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_07_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_08_02_17.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_09_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_10_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_11_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_12_02_18.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_13_02_31.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_14_02_19.csv']
+[2026-01-08 16:19:07,684] 50 root - INFO - ['raw/hourlyDatasets/weatherData_08_01_2026_01_02_19.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_02_02_17.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_03_02_25.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_04_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_05_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_06_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_07_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_08_02_17.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_09_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_10_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_11_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_12_02_18.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_13_02_31.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_14_02_19.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_15_02_15.csv']
+[2026-01-08 16:19:07,684] 50 root - INFO - ['raw/hourlyDatasets/weatherData_08_01_2026_01_02_19.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_02_02_17.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_03_02_25.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_04_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_05_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_06_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_07_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_08_02_17.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_09_02_16.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_10_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_11_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_12_02_18.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_13_02_31.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_14_02_19.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_15_02_15.csv', 'raw/hourlyDatasets/weatherData_08_01_2026_16_02_14.csv']
+[2026-01-08 16:19:09,228] 32 root - INFO - File Downloaded!
+[2026-01-08 16:19:09,237] 93 root - INFO - dataset downloaded
+[2026-01-08 16:19:09,237] 95 root - INFO - downloaded dataset added
+[2026-01-08 16:19:09,713] 32 root - INFO - File Downloaded!
+[2026-01-08 16:19:09,717] 93 root - INFO - dataset downloaded
+[2026-01-08 16:19:09,717] 95 root - INFO - downloaded dataset added
+[2026-01-08 16:19:10,211] 32 root - INFO - File Downloaded!
+[2026-01-08 16:19:10,214] 93 root - INFO - dataset downloaded
+[2026-01-08 16:19:10,214] 95 root - INFO - downloaded dataset added
+[2026-01-08 16:19:10,664] 32 root - INFO - File Downloaded!
+[2026-01-08 16:19:10,667] 93 root - INFO - dataset downloaded
+[2026-01-08 16:19:10,667] 95 root - INFO - downloaded dataset added
+[2026-01-08 16:19:11,145] 32 root - INFO - File Downloaded!
+[2026-01-08 16:19:11,149] 93 root - INFO - dataset downloaded
+[2026-01-08 16:19:11,149] 95 root - INFO - downloaded dataset added
+[2026-01-08 16:19:11,596] 32 root - INFO - File Downloaded!
+[2026-01-08 16:19:11,605] 93 root - INFO - dataset downloaded
+[2026-01-08 16:19:11,605] 95 root - INFO - downloaded dataset added
+[2026-01-08 16:19:12,071] 32 root - INFO - File Downloaded!
+[2026-01-08 16:19:12,074] 93 root - INFO - dataset downloaded
+[2026-01-08 16:19:12,075] 95 root - INFO - downloaded dataset added
+[2026-01-08 16:19:12,562] 32 root - INFO - File Downloaded!
+[2026-01-08 16:19:12,567] 93 root - INFO - dataset downloaded
+[2026-01-08 16:19:12,567] 95 root - INFO - downloaded dataset added
+[2026-01-08 16:19:13,241] 32 root - INFO - File Downloaded!
+[2026-01-08 16:19:13,245] 93 root - INFO - dataset downloaded
+[2026-01-08 16:19:13,245] 95 root - INFO - downloaded dataset added
+[2026-01-08 16:19:13,734] 32 root - INFO - File Downloaded!
+[2026-01-08 16:19:13,737] 93 root - INFO - dataset downloaded
+[2026-01-08 16:19:13,737] 95 root - INFO - downloaded dataset added
+[2026-01-08 16:19:14,203] 32 root - INFO - File Downloaded!
+[2026-01-08 16:19:14,206] 93 root - INFO - dataset downloaded
+[2026-01-08 16:19:14,206] 95 root - INFO - downloaded dataset added
+[2026-01-08 16:19:14,647] 32 root - INFO - File Downloaded!
+[2026-01-08 16:19:14,650] 93 root - INFO - dataset downloaded
+[2026-01-08 16:19:14,650] 95 root - INFO - downloaded dataset added
+[2026-01-08 16:19:15,101] 32 root - INFO - File Downloaded!
+[2026-01-08 16:19:15,104] 93 root - INFO - dataset downloaded
+[2026-01-08 16:19:15,105] 95 root - INFO - downloaded dataset added
+[2026-01-08 16:19:15,559] 32 root - INFO - File Downloaded!
+[2026-01-08 16:19:15,564] 93 root - INFO - dataset downloaded
+[2026-01-08 16:19:15,564] 95 root - INFO - downloaded dataset added
+[2026-01-08 16:19:16,036] 32 root - INFO - File Downloaded!
+[2026-01-08 16:19:16,043] 93 root - INFO - dataset downloaded
+[2026-01-08 16:19:16,044] 95 root - INFO - downloaded dataset added
+[2026-01-08 16:19:16,490] 32 root - INFO - File Downloaded!
+[2026-01-08 16:19:16,493] 93 root - INFO - dataset downloaded
+[2026-01-08 16:19:16,494] 95 root - INFO - downloaded dataset added
+[2026-01-08 16:19:16,496] 78 root - INFO - daily dataset compiled
+[2026-01-08 16:19:16,517] 81 root - INFO - Data stored in string buffer
+[2026-01-08 16:19:16,947] 66 root - INFO - Uploaded raw/dailyDatasets/dailyWeatherData_08_01_2026.csv to open-weather-data-storage
+[2026-01-08 16:19:17,256] 84 root - INFO -  Weather data saved to datalake
+[2026-01-08 16:19:17,256] 98 root - INFO - File uploaded to datalake
