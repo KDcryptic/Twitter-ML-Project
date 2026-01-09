@@ -1,8 +1,5 @@
 import pandas as pd
 import numpy as np
-import requests
-import os
-import json
 import sys
 import boto3
 import pushbullet
