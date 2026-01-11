@@ -1,0 +1,5 @@
+[2026-01-11 03:33:52,973] 83 papermill - INFO - Input Notebook:  C:\Users\KimKa\Desktop\ML Project 2\notebooks\EDA.ipynb
+[2026-01-11 03:33:52,974] 84 papermill - INFO - Output Notebook: -
+[2026-01-11 03:33:54,755] 44 papermill - INFO - Executing notebook with kernel: python3
+[2026-01-11 03:34:04,341] 286 traitlets - WARNING - Alternative text is missing on 11 image(s).
+[2026-01-11 03:34:10,371] 45 root - INFO - Uploaded reports/dailyReports/daily_report_10_01_2026.pdf to open-weather-data-storage

@@ -1,0 +1,4 @@
+[2026-01-11 03:28:57,969] 83 papermill - INFO - Input Notebook:  C:\Users\KimKa\Desktop\ML Project 2\notebooks\EDA.ipynb
+[2026-01-11 03:28:57,970] 84 papermill - INFO - Output Notebook: -
+[2026-01-11 03:28:59,983] 44 papermill - INFO - Executing notebook with kernel: python3
+[2026-01-11 03:29:10,180] 286 traitlets - WARNING - Alternative text is missing on 11 image(s).

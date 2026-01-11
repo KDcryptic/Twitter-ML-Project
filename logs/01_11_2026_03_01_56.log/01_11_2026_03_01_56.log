@@ -1,0 +1,4 @@
+[2026-01-11 03:01:56,441] 1392 botocore.credentials - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2026-01-11 03:01:59,477] 83 papermill - INFO - Input Notebook:  C:\Users\KimKa\Desktop\ML Project 2\notebooks\EDA.ipynb
+[2026-01-11 03:01:59,478] 84 papermill - INFO - Output Notebook: -
+[2026-01-11 03:02:01,388] 44 papermill - INFO - Executing notebook with kernel: python3

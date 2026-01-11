@@ -8,4 +8,7 @@ fastapi
 boto3
 awscli
 pushbullet.py
-apache-airflow
+papermill
+nbconvert
+weasyprint
+pdfkit

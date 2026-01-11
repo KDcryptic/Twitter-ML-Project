@@ -1,0 +1,63 @@
+[2026-01-11 01:26:02,278] 1392 botocore.credentials - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2026-01-11 01:28:24,937] 29 root - INFO - File Downloaded!
+[2026-01-11 02:09:59,242] 29 root - INFO - File Downloaded!
+[2026-01-11 02:10:03,707] 83 papermill - INFO - Input Notebook:  EDA.ipynb
+[2026-01-11 02:10:03,707] 84 papermill - INFO - Output Notebook: -
+[2026-01-11 02:10:30,479] 29 root - INFO - File Downloaded!
+[2026-01-11 02:10:32,798] 83 papermill - INFO - Input Notebook:  notebooks/EDA.ipynb
+[2026-01-11 02:10:32,799] 84 papermill - INFO - Output Notebook: -
+[2026-01-11 02:11:10,210] 29 root - INFO - File Downloaded!
+[2026-01-11 02:11:13,107] 83 papermill - INFO - Input Notebook:  ML Project 2/notebooks/EDA.ipynb
+[2026-01-11 02:11:13,107] 84 papermill - INFO - Output Notebook: -
+[2026-01-11 02:12:01,650] 29 root - INFO - File Downloaded!
+[2026-01-11 02:14:24,393] 29 root - INFO - File Downloaded!
+[2026-01-11 02:15:58,381] 29 root - INFO - File Downloaded!
+[2026-01-11 02:16:00,641] 83 papermill - INFO - Input Notebook:  c:\EDA.ipynb
+[2026-01-11 02:16:00,641] 84 papermill - INFO - Output Notebook: -
+[2026-01-11 02:16:39,568] 29 root - INFO - File Downloaded!
+[2026-01-11 02:16:41,918] 83 papermill - INFO - Input Notebook:  c:\notebooks\EDA.ipynb
+[2026-01-11 02:16:41,918] 84 papermill - INFO - Output Notebook: -
+[2026-01-11 02:18:58,449] 29 root - INFO - File Downloaded!
+[2026-01-11 02:19:58,650] 29 root - INFO - File Downloaded!
+[2026-01-11 02:20:00,829] 83 papermill - INFO - Input Notebook:  c:\EDA.ipynb
+[2026-01-11 02:20:00,830] 84 papermill - INFO - Output Notebook: -
+[2026-01-11 02:20:32,058] 29 root - INFO - File Downloaded!
+[2026-01-11 02:20:47,494] 29 root - INFO - File Downloaded!
+[2026-01-11 02:20:49,684] 83 papermill - INFO - Input Notebook:  c:\notebooks\EDA.ipynb
+[2026-01-11 02:20:49,684] 84 papermill - INFO - Output Notebook: -
+[2026-01-11 02:25:00,692] 29 root - INFO - File Downloaded!
+[2026-01-11 02:25:03,016] 83 papermill - INFO - Input Notebook:  C:\EDA.ipynb
+[2026-01-11 02:25:03,017] 84 papermill - INFO - Output Notebook: -
+[2026-01-11 02:29:51,667] 29 root - INFO - File Downloaded!
+[2026-01-11 02:29:54,392] 83 papermill - INFO - Input Notebook:  c:\EDA.ipynb
+[2026-01-11 02:29:54,392] 84 papermill - INFO - Output Notebook: -
+[2026-01-11 02:31:49,345] 29 root - INFO - File Downloaded!
+[2026-01-11 02:31:51,579] 83 papermill - INFO - Input Notebook:  c:\notebooks\EDA.ipynb
+[2026-01-11 02:31:51,579] 84 papermill - INFO - Output Notebook: -
+[2026-01-11 02:34:55,680] 29 root - INFO - File Downloaded!
+[2026-01-11 02:34:57,818] 83 papermill - INFO - Input Notebook:  C:\Users\KimKa\Desktop\ML Project 2\notebooks\EDA.ipynb
+[2026-01-11 02:34:57,818] 84 papermill - INFO - Output Notebook: -
+[2026-01-11 02:35:42,827] 29 root - INFO - File Downloaded!
+[2026-01-11 02:35:45,623] 83 papermill - INFO - Input Notebook:  C:\Users\KimKa\Desktop\ML Project 2\notebooks\EDA.ipynb
+[2026-01-11 02:35:45,624] 84 papermill - INFO - Output Notebook: -
+[2026-01-11 02:42:18,864] 29 root - INFO - File Downloaded!
+[2026-01-11 02:42:20,956] 83 papermill - INFO - Input Notebook:  C:\Users\KimKa\Desktop\ML Project 2\notebooks\EDA.ipynb
+[2026-01-11 02:42:20,957] 84 papermill - INFO - Output Notebook: -
+[2026-01-11 02:45:06,224] 29 root - INFO - File Downloaded!
+[2026-01-11 02:45:08,386] 83 papermill - INFO - Input Notebook:  C:\Users\KimKa\Desktop\ML Project 2\notebooks\EDA.ipynb
+[2026-01-11 02:45:08,386] 84 papermill - INFO - Output Notebook: -
+[2026-01-11 02:47:10,623] 29 root - INFO - File Downloaded!
+[2026-01-11 02:47:12,691] 83 papermill - INFO - Input Notebook:  C:\Users\KimKa\Desktop\ML Project 2\notebooks\EDA.ipynb
+[2026-01-11 02:47:12,692] 84 papermill - INFO - Output Notebook: -
+[2026-01-11 02:49:53,404] 29 root - INFO - File Downloaded!
+[2026-01-11 02:49:56,246] 83 papermill - INFO - Input Notebook:  C:\Users\KimKa\Desktop\ML Project 2\notebooks\EDA.ipynb
+[2026-01-11 02:49:56,246] 84 papermill - INFO - Output Notebook: -
+[2026-01-11 02:51:14,073] 29 root - INFO - File Downloaded!
+[2026-01-11 02:51:16,172] 83 papermill - INFO - Input Notebook:  C:\Users\KimKa\Desktop\ML Project 2\notebooks\EDA.ipynb
+[2026-01-11 02:51:16,172] 84 papermill - INFO - Output Notebook: -
+[2026-01-11 02:51:53,025] 29 root - INFO - File Downloaded!
+[2026-01-11 02:51:55,277] 83 papermill - INFO - Input Notebook:  C:\Users\KimKa\Desktop\ML Project 2\notebooks\EDA.ipynb
+[2026-01-11 02:51:55,277] 84 papermill - INFO - Output Notebook: -
+[2026-01-11 02:52:19,352] 29 root - INFO - File Downloaded!
+[2026-01-11 02:52:21,458] 83 papermill - INFO - Input Notebook:  C:\Users\KimKa\Desktop\ML Project 2\notebooks\EDA.ipynb
+[2026-01-11 02:52:21,459] 84 papermill - INFO - Output Notebook: -
