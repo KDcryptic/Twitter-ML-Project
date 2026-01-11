@@ -68,8 +68,8 @@ def processData(df):
     cleanDf['sunset']  = cleanDf['sunset'].dt.tz_convert('Africa/Windhoek')
 
     
-    cleanDf['sunrise time'] = cleanDf['sunrise'].dt.time
-    cleanDf['sunset time'] = cleanDf['sunset'].dt.time
+    cleanDf['sunrise_time'] = cleanDf['sunrise'].dt.time
+    cleanDf['sunset_time'] = cleanDf['sunset'].dt.time
 
     cleanDf = cleanDf[~cleanDf['city'].isin(['Gibeon','Leonardville'])]
 

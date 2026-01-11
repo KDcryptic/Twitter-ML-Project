@@ -1,0 +1,2 @@
+[2026-01-11 05:25:50,689] 1392 botocore.credentials - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2026-01-11 05:25:56,927] 62 root - INFO - Uploaded reports/dailyReports/daily_report_10_01_2026.pdf to open-weather-data-storage

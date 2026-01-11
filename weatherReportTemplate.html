@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Daily Weather Report - {{ date }}</title>
+    <style>
+        body { font-family: 'Segoe UI', Arial, sans-serif; margin: 40px; color: #2c3e50; }
+        header { text-align: center; margin-bottom: 40px; }
+        h1 { font-size: 28px; margin: 0; }
+        h2 { color: #34495e; margin-top: 30px; }
+        .summary { font-size: 16px; margin-top: 10px; }
+        table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: center; }
+        th { background-color: #f4f4f4; }
+        .highlight { background-color: #eaf2f8; font-weight: bold; }
+        footer { text-align: center; margin-top: 50px; font-size: 12px; color: #7f8c8d; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Namibia Daily Weather Report</h1>
+        <p>{{ date }}</p>
+    </header>
+
+    <section>
+        <h2>Correlation Between Numeric Columns</h2>
+        <img src="data:image/png;base64,{{ plot_data }}">
+
+    </section>
+
+    <section>
+        <h2>Highest Temperature Recorded</h2>
+        <table>
+            <tr><th>Region</th><th>Temp(°K)</th><th>Pressure</th><th>Clouds</th></tr>
+            {% for row in weather_data %}
+            <tr {% if row.temp > 35 %}class="highlight"{% endif %}>
+                <td>{{ row.city }}</td>
+                <td>{{ row.temp }}</td>
+                <td>{{ row.pressure }}</td>
+                <td>{{ row.clouds }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </section>
+
+    <section>
+        <h2>Highest Humidity Recorded</h2>
+        <table>
+            <tr><th>City</th><th>Humidity (%)</th></tr>
+            {% for row in weather_data %}
+            <tr {% if row.humidity < 80 %}class="highlight"{% endif %}>
+            <tr>
+                <td>{{ row.city }}</td>
+                <td>{{ row.humidity }}</td>
+                
+            </tr>
+            {% endfor %}
+        </table>
+    </section>
+
+    <section>
+        <h2>Sunrise and Sunset Times Recorded</h2>
+        <table>
+            <tr><th>City</th><th>Sunrise</th><th>Sunset</th></tr>
+            {% for row in earliestSunrise %}
+            
+            <tr>
+                <td>{{ row.city }}</td>
+                <td>{{ row.sunrise_time }}</td>
+                <td>{{ row.sunset_time }}</td>
+                
+            </tr>
+            {% endfor %}
+        </table>
+    </section>
+
+
+
+    <footer>
+        <p>Generated automatically by Kim's Open Weather Pipeline</p>
+    </footer>
+</body>
+</html>
